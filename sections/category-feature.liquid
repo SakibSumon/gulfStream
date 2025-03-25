@@ -1,0 +1,307 @@
+<style>
+  .tt-collection-slider-wrap .collection_title{color:{{section.settings.title_color }};}
+  .collection_cat_item .btn {color:{{section.settings.button_text_color }};}
+  .tt-collection-slider-wrap .category_content .view-btn .btn::after{background:{{section.settings.button_text_color }};}
+  .collection_cat_item .btn:hover{
+    color: #171717;
+  }
+  .tt-collection-slider-wrap .category_content .view-btn .btn:hover::after{
+  	background: #171717;
+  }
+  .tt-collection-slider-wrap .sub-category-content{background:{{section.settings.sub_bg_color }};}
+  .sub_collection_title{color:{{section.settings.sub_title_color }};background:{{section.settings.sub_bg_title_color }};}
+  .sub-category-content:hover .sub_collection_title{color:{{section.settings.sub_title_hv_color }};background:{{section.settings.sub_bg_title_hv_color }};}
+</style>
+<div data-section-id="{{ section.id }}"  data-section-type="tt-collection-slider-wrap" class="tt-collection-slider-wrap" >
+  <div class="container">
+    <div class="tt-collection-wrap" data-aos="fade-up">
+      <div class="section-header">
+        <div class="tt-title">{{ section.settings.title }}</div>  
+        <div class="subtitle">{{ section.settings.subtitle }}</div>
+      </div>
+      <div class="row">       
+        {% if section.blocks.size > 0 %}  
+        <div class="category_feature owl-carousel owl-theme">
+          {% for block in section.blocks %}  
+          {%- assign collection = collections[block.settings.collection_cat_id] -%}   
+          <div id="cat-featured--{{ block.id }}" class="collection_cat_item col-sm-12"> 
+            <div class="category_content">                           
+              {% if collection.title != blank  %}  
+              <a href="{{ collection.url }}" class="collection_title">{{ block.settings.collection_title }}</a>
+              {% endif %}               {% if block.settings.btn_txt != blank %}
+              <div class="view-btn"><a href="{{ collection.url }}" class="btn">{{ block.settings.btn_txt | escape }}</a></div>
+              {% endif %}
+              <div class="sub_category_wrap">
+                <div class="sub_category_wrap_content">
+                  {% if block.settings.sub_image_1 != blank %}  
+                  <div class="sub_category sub_category1 col-xs-4">
+                    {%- assign collection = collections[block.settings.sub_collection_cat_id_1] -%}
+                    <div class="sub-category-content">                      
+                      <img loading="lazy" src="{{ block.settings.sub_image_1 | img_url: "master"  }}" alt="collection-img"/>                       
+                      <div class="collection_title">
+                        <a href="{{ collection.url }}" class="sub_collection_title">{{ block.settings.sub_collection_title_1 }}</a>
+                      </div>
+                    </div>
+                    {% endif %} 
+                  </div>{% if block.settings.sub_image_2 != blank %}  
+                  <div class="sub_category sub_category1 col-xs-4">
+                    {%- assign collection = collections[block.settings.sub_collection_cat_id_2] -%}
+                    <div class="sub-category-content">                      
+                      <img loading="lazy" src="{{ block.settings.sub_image_2 | img_url: "master"  }}" alt="collection-img"/>                         
+                      <div class="collection_title">
+                        <a href="{{ collection.url }}" class="sub_collection_title">{{ block.settings.sub_collection_title_2 }}</a>
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %} 
+                  {% if block.settings.sub_image_3 != blank %}  
+                  <div class="sub_category sub_category1 col-xs-4">
+                    {%- assign collection = collections[block.settings.sub_collection_cat_id_3] -%}
+                    <div class="sub-category-content">                      
+                      <img loading="lazy" src="{{ block.settings.sub_image_3 | img_url: "master"  }}" alt="collection-img"/>                      
+                      <div class="collection_title">
+                        <a href="{{ collection.url }}" class="sub_collection_title">{{ block.settings.sub_collection_title_3 }}</a>
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %}
+                  {% if block.settings.sub_image_4 != blank %} 
+                  <div class="sub_category col-xs-4">
+                    {%- assign collection = collections[block.settings.sub_collection_cat_id_4] -%}
+                    <div class="sub-category-content">                      
+                      <img loading="lazy" src="{{ block.settings.sub_image_4 | img_url: "master"  }}" alt="collection-img"/>                         
+                      <div class="collection_title">
+                        <a href="{{ collection.url }}" class="sub_collection_title">{{ block.settings.sub_collection_title_4 }}</a>
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %}
+                  {% if block.settings.sub_image_5 != blank %}
+                  <div class="sub_category col-xs-4">
+                    {%- assign collection = collections[block.settings.sub_collection_cat_id_5] -%}
+                    <div class="sub-category-content">                        
+                      <img loading="lazy" src="{{ block.settings.sub_image_5 | img_url: "master"  }}" alt="collection-img"/>                        
+                      <div class="collection_title">
+                        <a href="{{ collection.url }}" class="sub_collection_title">{{ block.settings.sub_collection_title_5 }}</a>
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %} 
+                  {% if block.settings.sub_image_6 != blank %}  
+                  <div class="sub_category col-xs-4">
+                    {%- assign collection = collections[block.settings.sub_collection_cat_id_6] -%}
+                    <div class="sub-category-content">                      
+                      <img loading="lazy" src="{{ block.settings.sub_image_6 | img_url: "master"  }}" alt="collection-img"/>                         
+                      <div class="collection_title">
+                        <a href="{{ collection.url }}" class="sub_collection_title">{{ block.settings.sub_collection_title_6 }}</a>
+                      </div>                      
+                    </div>
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>  
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Category Feature",
+"class": "index-section category",
+"max_blocks":5,
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Section Title"
+},
+{
+"type": "text",
+"id": "subtitle",
+"label": "Subtitle"
+},
+{
+"type": "header",
+"content": "CMS category setting"
+},
+{
+"type": "color",
+"id": "image_content_bg_color",
+"label": "Content Background Color",
+"default":"#1d1c1c"
+},
+{
+"type": "color",
+"id": "title_color",
+"label": "Category Title Color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "button_text_color",
+"label": "Button text color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "sub_bg_color",
+"label": "Sub Category Background Color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "sub_title_color",
+"label": "Sub Category Title Color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "sub_bg_title_color",
+"label": "Sub Category Title Background Color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "sub_title_hv_color",
+"label": "Sub Category Title Hover Color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "sub_bg_title_hv_color",
+"label": "Sub Category Title Background Hover Color",
+"default": "#fff"
+}
+],
+"blocks": [
+{
+"type": "text_collection",
+"name": "collection cms",
+"settings": [
+{
+"type": "text",
+"id": "collection_title",
+"label": "collection Title"
+},
+{
+"type": "text",
+"id": "btn_txt",
+"label": "Button Text"
+},
+{
+"type": "collection",
+"id": "collection_cat_id",
+"label": "Select collection"
+},
+{
+"type": "image_picker",
+"id": "sub_image_1",
+"label": "Sub Image"
+},
+{
+"type": "text",
+"id": "sub_collection_title_1",
+"label": "Sub collection Title"
+},
+{
+"type": "collection",
+"id": "sub_collection_cat_id_1",
+"label": "Sub Select collection"
+}, 
+{
+"type": "image_picker",
+"id": "sub_image_2",
+"label": "Sub Image"
+},
+{
+"type": "text",
+"id": "sub_collection_title_2",
+"label": "Sub collection Title"
+},
+{
+"type": "collection",
+"id": "sub_collection_cat_id_2",
+"label": "Sub Select collection"
+},
+{
+"type": "image_picker",
+"id": "sub_image_3",
+"label": "Sub Image"
+},
+{
+"type": "text",
+"id": "sub_collection_title_3",
+"label": "Sub collection Title"
+},
+{
+"type": "collection",
+"id": "sub_collection_cat_id_3",
+"label": "Sub Select collection"
+},
+{
+"type": "image_picker",
+"id": "sub_image_4",
+"label": "Sub Image"
+},
+{
+"type": "text",
+"id": "sub_collection_title_4",
+"label": "Sub collection Title"
+},
+{
+"type": "collection",
+"id": "sub_collection_cat_id_4",
+"label": "Sub Select collection"
+},
+{
+"type": "image_picker",
+"id": "sub_image_5",
+"label": "Sub Image"
+},
+{
+"type": "text",
+"id": "sub_collection_title_5",
+"label": "Sub collection Title"
+},
+{
+"type": "collection",
+"id": "sub_collection_cat_id_5",
+"label": "Sub Select collection"
+},
+{
+"type": "image_picker",
+"id": "sub_image_6",
+"label": "Sub Image"
+},
+{
+"type": "text",
+"id": "sub_collection_title_6",
+"label": "Sub collection Title"
+},
+{
+"type": "collection",
+"id": "sub_collection_cat_id_6",
+"label": "Sub Select collection"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Category Feature",
+"category": "TT CMS section",
+"blocks": [
+{
+"type": "text_collection"
+}     
+]
+}
+]
+}
+{% endschema %}
+

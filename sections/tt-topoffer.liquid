@@ -1,0 +1,53 @@
+{% if section.blocks.size > 0 %} 
+<div id="tt-topoffer" class="block_content" data-aos="fade-up">  
+  <div class="container">
+    <div class="ttofferblock">
+      {% for block in section.blocks %}      
+      <div id="topoffer-{{block.id}}" class="top-offer">
+        <a class="topoffer-img" href="{{block.settings.topoffer_img_url }}">                
+          <img loading="lazy" height="118" width="320" src="{{ block.settings.topoffer_img  | img_url: "320x118" }}" alt="offer-img" />
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% schema %}
+{
+"name": "topoffer",
+"class": "index-section topoffer",
+"settings": [
+{
+"type": "color",
+"id": "offer_bg",
+"label": "Offer Background Color"
+}
+],
+"blocks": [
+{
+"type": "offer_text",
+"name": "services",
+"settings": [
+{
+"type": "url",
+"id": "topoffer_img_url",
+"label": "Offer Image URL"
+},
+{
+"type": "image_picker",
+"id": "topoffer_img",
+"label": "Offer Image",
+"info": "Size: 270x130"
+}
+]
+}
+],
+"presets": [
+{
+"name": "topoffer",
+"category": "offer"
+}
+]
+}
+{% endschema %}

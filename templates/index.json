@@ -1,0 +1,525 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "1580215063672-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider-01_78d76a64-7394-4187-9a41-718df3589d4d.jpg",
+            "image_link": "#",
+            "show_video": false,
+            "video_url": "https:\/\/www.youtube.com\/watch?v=245jz3ZqZqM",
+            "title": "CORONA COVID-19\nPrevention & Care Supplies",
+            "sub_title": "First Time on Wareshouse Store Sale!",
+            "btn_txt": "Shop Now",
+            "btn_link": "#",
+            "title_color": "#ffffff",
+            "subtitle_color": "#222222",
+            "subtitle_bg_color": "#ffcc00",
+            "btn_bg_color": "#ffffff",
+            "btn_txt_color": "#111111",
+            "btn_border_color": "#f8d81b",
+            "btn_hovertxt_color": "#111111",
+            "text_position": "left",
+            "text_effect": "left"
+          }
+        },
+        "1580215063672-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider-02_69bd86d8-edac-4018-8790-8a552966b9bc.jpg",
+            "image_link": "#",
+            "show_video": false,
+            "video_url": "",
+            "title": "Decoy Bovinos rs<br>\nControle Biologico",
+            "sub_title": "First Time on Wareshouse Store Sale!",
+            "btn_txt": "Shop Now",
+            "btn_link": "#",
+            "title_color": "#ffffff",
+            "subtitle_color": "#222222",
+            "subtitle_bg_color": "#ffcc00",
+            "btn_bg_color": "#ffffff",
+            "btn_txt_color": "#111111",
+            "btn_border_color": "#f8d81b",
+            "btn_hovertxt_color": "#111111",
+            "text_position": "left",
+            "text_effect": "right"
+          }
+        }
+      },
+      "block_order": [
+        "1580215063672-0",
+        "1580215063672-1"
+      ],
+      "settings": {
+        "slider_animation_type": "fade",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#f8d81b"
+      }
+    },
+    "top-category": {
+      "type": "top-category",
+      "blocks": {
+        "6c1d3cc6-0685-45f1-bf01-66c37aacadb0": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/products\/amber-square-air-shirt",
+            "service_icon": "shopify:\/\/shop_images\/01.png",
+            "title": "Apparel & Fashion",
+            "tt_mn_show_sub": true,
+            "tt_sub_menu_clinklist": "footer-menu-2"
+          }
+        },
+        "9b81100d-ce10-44d8-ab06-ad0fbff91ce9": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/products\/eye-drops-gouttes-oculaires-lubricating-ophthalmic-solution",
+            "service_icon": "shopify:\/\/shop_images\/Baby-_-Child-Care.png",
+            "title": "Baby & Child Care",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "d0cc25b8-deae-4caf-bef5-07a13d26c30e": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/products\/fresh-organics-red-onion",
+            "service_icon": "shopify:\/\/shop_images\/Diet-_-Nutrition.png",
+            "title": "Diet & Nutrition",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "f3a3d0c8-c0a8-4981-ad71-22af75662f7b": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/products\/bang-olufsen-beoplay-h4-2nd-gen-wireless-over-ear-headphone",
+            "service_icon": "shopify:\/\/shop_images\/Gifts-_-Specialty.png",
+            "title": "Gifts & Specialty",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "373ec640-899c-4aa6-80cf-0e01be1a64f5": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/products\/domestic-gourmet-automatic-espresso-coffee-capsule-machine",
+            "service_icon": "shopify:\/\/shop_images\/Home_Electronics.png",
+            "title": "Home & Electronics",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "8d98320a-816b-4ec1-8d3d-f5865fd118db": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/products\/ellen-dining-chair",
+            "service_icon": "shopify:\/\/shop_images\/Household-Items.png",
+            "title": "Household Items",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "4319a167-cc23-4b12-9530-d3de96a790fa": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/products\/french-door-refrigerator-in-fingerprint-resistant-stainless-steel",
+            "service_icon": "shopify:\/\/shop_images\/Vehicles-_-Accessories.png",
+            "title": "Vehicles & Accessories",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "eb56fb3e-e7be-4083-ae46-406c34513c88": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/collections\/all",
+            "service_icon": "shopify:\/\/shop_images\/Other-Departments.png",
+            "title": "All Category",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        }
+      },
+      "block_order": [
+        "6c1d3cc6-0685-45f1-bf01-66c37aacadb0",
+        "9b81100d-ce10-44d8-ab06-ad0fbff91ce9",
+        "d0cc25b8-deae-4caf-bef5-07a13d26c30e",
+        "f3a3d0c8-c0a8-4981-ad71-22af75662f7b",
+        "373ec640-899c-4aa6-80cf-0e01be1a64f5",
+        "8d98320a-816b-4ec1-8d3d-f5865fd118db",
+        "4319a167-cc23-4b12-9530-d3de96a790fa",
+        "eb56fb3e-e7be-4083-ae46-406c34513c88"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "title_color": "#111111",
+        "title_hover_color": "#24aeb1",
+        "more_menu_category": "9",
+        "display_barcode": false,
+        "bar_title": "Enjoy Convevient Order Tracking",
+        "bar_title_clr": "#333333",
+        "bar_desc": "Scan To Download App",
+        "bar_desc_clr": "#666666"
+      }
+    },
+    "16530481607550e476": {
+      "type": "cms-blockbanner",
+      "blocks": {
+        "83bd01a2-635a-4af7-9189-b3296a19bdae": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/banner-01_e45eacbf-d517-4a38-9ad9-c716dadc687a.jpg",
+            "banner_link1": "",
+            "title": "Metoprolol",
+            "title_color": "#ffffff",
+            "subtitle": "ER 50MG Tablet",
+            "subtitle_color": "#ffffff",
+            "btn": "Shop Now",
+            "btn_link1": "#",
+            "btnbg_color": "#ffffff",
+            "btntxt_color": "#222222",
+            "btnhvr_color": "#ffcc00",
+            "btnhvrtxt_color": "#222222",
+            "text_position": "right"
+          }
+        },
+        "1ffa6be1-4078-4d58-853d-09264aaba242": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/banner-02_ff35c1a6-bd3f-4902-8310-944b76a12d9d.jpg",
+            "banner_link1": "",
+            "title": "Epidiolex",
+            "title_color": "#ffffff",
+            "subtitle": "100mg\/ml Oral Solution",
+            "subtitle_color": "#ffffff",
+            "btn": "Shop Now",
+            "btn_link1": "#",
+            "btnbg_color": "#ffffff",
+            "btntxt_color": "#222222",
+            "btnhvr_color": "#ffcc00",
+            "btnhvrtxt_color": "#222222",
+            "text_position": "right"
+          }
+        },
+        "a581534f-6f1a-425e-8dd7-542da28697f0": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/banner-03_75e20c06-d01a-4c94-b34d-78727c088a5a.jpg",
+            "banner_link1": "",
+            "title": "Vitality Tablets",
+            "title_color": "#ffffff",
+            "subtitle": "Man Matters",
+            "subtitle_color": "#ffffff",
+            "btn": "Shop Now",
+            "btn_link1": "#",
+            "btnbg_color": "#ffffff",
+            "btntxt_color": "#222222",
+            "btnhvr_color": "#ffcc00",
+            "btnhvrtxt_color": "#222222",
+            "text_position": "right"
+          }
+        }
+      },
+      "block_order": [
+        "83bd01a2-635a-4af7-9189-b3296a19bdae",
+        "1ffa6be1-4078-4d58-853d-09264aaba242",
+        "a581534f-6f1a-425e-8dd7-542da28697f0"
+      ],
+      "settings": {}
+    },
+    "category-feature": {
+      "type": "category-feature",
+      "blocks": {
+        "1622714104fc54d870-0": {
+          "type": "text_collection",
+          "settings": {
+            "collection_title": "Ayurvedic",
+            "btn_txt": "View All",
+            "collection_cat_id": "special-medicine",
+            "sub_image_1": "shopify:\/\/shop_images\/bio.png",
+            "sub_collection_title_1": "Bio",
+            "sub_collection_cat_id_1": "special-medicine",
+            "sub_image_2": "shopify:\/\/shop_images\/cystone.png",
+            "sub_collection_title_2": "Cystone",
+            "sub_collection_cat_id_2": "special-medicine",
+            "sub_image_3": "shopify:\/\/shop_images\/honey.png",
+            "sub_collection_title_3": "Honey",
+            "sub_collection_cat_id_3": "special-medicine",
+            "sub_image_4": "shopify:\/\/shop_images\/immunity.png",
+            "sub_collection_title_4": "Immunity",
+            "sub_collection_cat_id_4": "special-medicine",
+            "sub_image_5": "shopify:\/\/shop_images\/oils.png",
+            "sub_collection_title_5": "Oils",
+            "sub_collection_cat_id_5": "special-medicine",
+            "sub_image_6": "shopify:\/\/shop_images\/toothpaste.png",
+            "sub_collection_title_6": "ToothPaste",
+            "sub_collection_cat_id_6": "special-medicine"
+          }
+        },
+        "1d0c01a2-d68a-4089-b7a9-024ee2f38fd5": {
+          "type": "text_collection",
+          "settings": {
+            "collection_title": "Baby Care",
+            "btn_txt": "View All",
+            "collection_cat_id": "special-medicine",
+            "sub_image_1": "shopify:\/\/shop_images\/bath-time.png",
+            "sub_collection_title_1": "Bath-Time",
+            "sub_collection_cat_id_1": "",
+            "sub_image_2": "shopify:\/\/shop_images\/Hygiene.png",
+            "sub_collection_title_2": "Hygiene",
+            "sub_collection_cat_id_2": "",
+            "sub_image_3": "shopify:\/\/shop_images\/medicine.png",
+            "sub_collection_title_3": "Medicine",
+            "sub_collection_cat_id_3": "",
+            "sub_image_4": "shopify:\/\/shop_images\/pampers.png",
+            "sub_collection_title_4": "Pampers",
+            "sub_collection_cat_id_4": "",
+            "sub_image_5": "shopify:\/\/shop_images\/Stroller.png",
+            "sub_collection_title_5": "Stroller",
+            "sub_collection_cat_id_5": "",
+            "sub_collection_title_6": "Jacket",
+            "sub_collection_cat_id_6": ""
+          }
+        },
+        "d1b19b99-2fa5-44ac-8cbd-7bd64ea75ab5": {
+          "type": "text_collection",
+          "settings": {
+            "collection_title": "Covid Essentials",
+            "btn_txt": "View All",
+            "collection_cat_id": "special-medicine",
+            "sub_image_1": "shopify:\/\/shop_images\/gloves.png",
+            "sub_collection_title_1": "Gloves",
+            "sub_collection_cat_id_1": "",
+            "sub_image_2": "shopify:\/\/shop_images\/mask.png",
+            "sub_collection_title_2": "Mask",
+            "sub_collection_cat_id_2": "",
+            "sub_image_3": "shopify:\/\/shop_images\/medicine_fe2f8229-4f62-4483-9cca-58cea747ca17.png",
+            "sub_collection_title_3": "Medicine",
+            "sub_collection_cat_id_3": "",
+            "sub_image_4": "shopify:\/\/shop_images\/Oximeter.png",
+            "sub_collection_title_4": "Oximeter",
+            "sub_collection_cat_id_4": "",
+            "sub_image_5": "shopify:\/\/shop_images\/sanitizer.png",
+            "sub_collection_title_5": "Sanitizer",
+            "sub_collection_cat_id_5": "",
+            "sub_image_6": "shopify:\/\/shop_images\/temperature.png",
+            "sub_collection_title_6": "Temperature",
+            "sub_collection_cat_id_6": ""
+          }
+        }
+      },
+      "block_order": [
+        "1622714104fc54d870-0",
+        "1d0c01a2-d68a-4089-b7a9-024ee2f38fd5",
+        "d1b19b99-2fa5-44ac-8cbd-7bd64ea75ab5"
+      ],
+      "settings": {
+        "title": "Shop By Categories",
+        "subtitle": "Over 100+ Styles",
+        "image_content_bg_color": "#ffffff",
+        "title_color": "#222222",
+        "button_text_color": "#24aeb1",
+        "sub_bg_color": "#eff2f9",
+        "sub_title_color": "#222222",
+        "sub_bg_title_color": "#ffffff",
+        "sub_title_hv_color": "#ffffff",
+        "sub_bg_title_hv_color": "#24aeb1"
+      }
+    },
+    "product-tab-model": {
+      "type": "product-tab-model",
+      "blocks": {
+        "1595650811758-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "New Products",
+            "collection": "medicine"
+          }
+        }
+      },
+      "block_order": [
+        "1595650811758-0"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "6",
+        "title": "New Products",
+        "subtitle": "",
+        "button_text": "#666666",
+        "button_hover_text": "#111111",
+        "bg_color": "#f1ece8"
+      }
+    },
+    "cms-banner": {
+      "type": "cms-banner",
+      "settings": {
+        "banner1_img": "shopify:\/\/shop_images\/banner-04_61c50c06-e335-48d2-9fb1-74a4c111bfd4.jpg",
+        "banner1_url": "#",
+        "text1_position": "right",
+        "banner1_subtitle": "Weekend Sale",
+        "banner1_subtitle_color": "#ffffff",
+        "banner1_title": "Flat 25% OFF Medicare items",
+        "banner1_title_color": "#ffffff",
+        "btn1_text": "Shop Now",
+        "btn_link1": "#",
+        "btn1_bg_color": "#ffffff",
+        "btn1_txt_color": "#111111",
+        "btn1_txt_hover_color": "#ffffff",
+        "btn1_bg_hover_color": "#222222",
+        "banner2_img": "shopify:\/\/shop_images\/banner-05_413eef3e-3e57-4d70-a6d9-0ebad574a016.jpg",
+        "banner2_url": "#",
+        "text2_position": "right",
+        "banner2_subtitle": "up to 50% off best selling",
+        "banner2_subtitle_color": "#ffffff",
+        "banner2_title": "Healthy Vitamin Power up",
+        "banner2_title_color": "#ffffff",
+        "btn2_text": "Shop Now",
+        "btn_link2": "#",
+        "btn2_bg_color": "#ffffff",
+        "btn2_txt_color": "#222222",
+        "btn2_txt_hover_color": "#ffffff",
+        "btn2_bg_hover_color": "#222222"
+      }
+    },
+    "1653048136a31ebeec": {
+      "type": "featured-product",
+      "settings": {
+        "class": "fetureproduct",
+        "product_rows": true,
+        "title": "Features Products",
+        "subtitle": "",
+        "collection": "special-medicine",
+        "product_col": "2"
+      }
+    },
+    "best-seller": {
+      "type": "best-seller",
+      "settings": {
+        "class": "bestproduct",
+        "product_rows": true,
+        "title": "Best Selling",
+        "subtitle": "",
+        "collection": "special-medicine",
+        "product_col": "2"
+      }
+    },
+    "special-product": {
+      "type": "special-product",
+      "settings": {
+        "class": "specialproduct",
+        "bg_color": "#ffffff",
+        "title": "Deals of the Day",
+        "subtitle": "Black Friday Sale",
+        "btn_url": "",
+        "btn_txt": "",
+        "button_text_color": "#000000",
+        "button_hover_text_color": "#ffffff",
+        "collection": "special-medicine",
+        "product_col": "6"
+      }
+    },
+    "feature-blogs": {
+      "type": "feature-blogs",
+      "settings": {
+        "subtitle": "From the blog posts",
+        "subtitle_color": "#666666",
+        "title": "Latest News",
+        "blog": "medicine",
+        "blog_design": "design_1",
+        "product_col": "4",
+        "post_limit": "5",
+        "blog_btn_text": "#111111",
+        "blog_btn_hover_bg": "#ffcc00",
+        "blog_hover_btn_text": "#222222",
+        "blog_date_color": "#222222",
+        "blog_bgdate_color": "#ffffff",
+        "show_view_all": false,
+        "blog_show_date": true
+      }
+    },
+    "our_brand": {
+      "type": "our_brand",
+      "blocks": {
+        "1605783755d6d9f598-0": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01_3eebc4ca-a90c-4676-9013-146cbcf269d7.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-1": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02_2f022fb5-2a0d-4a77-a14e-5c0c16212606.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-2": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03_8e3eaa93-c374-47fc-846c-b65f47713897.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-3": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04_c55df19d-4d72-4a97-82ba-ac0377c9a9d0.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-4": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05_c6ebe3e4-fd18-4921-9d5b-6517405553d1.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-5": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/06_62996778-d358-490c-b6fb-e4f16e9137d7.png",
+            "link": "#"
+          }
+        },
+        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/07_d15ee5f4-811e-461d-a3e0-1423d26cc867.png",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1605783755d6d9f598-0",
+        "1605783755d6d9f598-1",
+        "1605783755d6d9f598-2",
+        "1605783755d6d9f598-3",
+        "1605783755d6d9f598-4",
+        "1605783755d6d9f598-5",
+        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd"
+      ],
+      "settings": {
+        "addclass": "brands",
+        "bg_color": "#ffffff",
+        "title": "Shop By Brands",
+        "subtitle": "Over 1000+ Brands"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "top-category",
+    "16530481607550e476",
+    "category-feature",
+    "product-tab-model",
+    "cms-banner",
+    "1653048136a31ebeec",
+    "best-seller",
+    "special-product",
+    "feature-blogs",
+    "our_brand"
+  ]
+}

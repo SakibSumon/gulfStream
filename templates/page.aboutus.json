@@ -1,0 +1,153 @@
+{
+  "wrapper": "div.container",
+  "sections": {
+    "main": {
+      "type": "aboutus-page-img",
+      "settings": {
+        "about1_title_color": "#222222",
+        "about1_title": "Organization of Health Services",
+        "about1_desc_color": "#666666",
+        "about1_desc": "It is generally the goal of most countries to have their health services organized in such a way to ensure that individuals, families, and communities obtain the maximum benefit from current knowledge and technology available for the promotion, maintenance, and restoration of health.",
+        "about_icon_color": "#111111",
+        "about_title_icon_color": "#666666",
+        "about_title_icon1": "Nurse Practitioner",
+        "about_title_icon2": "Physical Therapist",
+        "about_title_icon3": "Occupational Therapist",
+        "about_title_icon4": "Home Health Aide",
+        "about1_btn_url": "#",
+        "about1_btn": "Shop Now",
+        "about1_us": "shopify:\/\/shop_images\/about-us-01_916c7068-1ffa-46e8-b5d6-ed04cb2bd5d8.jpg",
+        "bg_color": "#f2f3f7",
+        "service_1": "shopify:\/\/shop_images\/png.png",
+        "service_title1_color": "#24aeb1",
+        "service_title1": "Free Shipping",
+        "service_desc1_color": "#777777",
+        "service_desc1": "Excepteur sint occaecat cupidatat non proident,   sunt in culpa qui officia deserunt mollit anim id  est laborum.",
+        "service_2": "shopify:\/\/shop_images\/02_50x50_204af827-5d9f-4be6-849a-26973e2318d9.png",
+        "service_title2_color": "#24aeb1",
+        "service_title2": "Big Saving Shop",
+        "service_desc2_color": "#777777",
+        "service_desc2": "Excepteur sint occaecat cupidatat non proident,   sunt in culpa qui officia deserunt mollit anim id  est laborum.",
+        "service_3": "shopify:\/\/shop_images\/01_50x50_e60a071a-c7a1-46c9-bb93-6dd8eb0a1363.png",
+        "service_title3_color": "#24aeb1",
+        "service_title3": "24H 7D Support",
+        "service_desc3_color": "#777777",
+        "service_desc3": "Excepteur sint occaecat cupidatat non proident,   sunt in culpa qui officia deserunt mollit anim id  est laborum.",
+        "about_main_title": "Blog",
+        "about_title_color": "#111111",
+        "about_desc_color": "#666666",
+        "about_img1": "shopify:\/\/shop_images\/blog-01.jpg",
+        "about_title1": "Stethoscope and notepad",
+        "about_desc1": "includes nurses, doctors, and various specialists. It covers diagnosis, treatment, and prevention of disease, medical research, and many other aspects of health. Medicine aims to promote and maintain he",
+        "about_img2": "shopify:\/\/shop_images\/blog-02.jpg",
+        "about_title2": "Doctor Is Scanning",
+        "about_desc2": "includes nurses, doctors, and various specialists. It covers diagnosis, treatment, and prevention of disease, medical research, and many other aspects of health. Medicine aims to promote and maintain he",
+        "about_img3": "shopify:\/\/shop_images\/blog-03.jpg",
+        "about_title3": "Best caring doctors",
+        "about_desc3": "includes nurses, doctors, and various specialists. It covers diagnosis, treatment, and prevention of disease, medical research, and many other aspects of health. Medicine aims to promote and maintain he",
+        "video_img": "shopify:\/\/shop_images\/about-us-02_968feb70-be07-46d8-9789-b46a2669c8e4.jpg",
+        "video_url": "https:\/\/www.youtube.com\/embed\/IGHsT8g_D2Q",
+        "video_btn_color": "#ffffff",
+        "video_btn_hover_color": "#222222",
+        "video_btn_bg_color": "#24aeb1",
+        "video_btn_bg_hover_color": "#ffcc00"
+      }
+    },
+    "team": {
+      "type": "aboutus-team",
+      "blocks": {
+        "1570173823217": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04.jpg",
+            "image_heading": "Lisa John",
+            "author_name": "Lisa John",
+            "author_designation": "Packaking Girl",
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+          }
+        },
+        "1570173875415": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/01_9190de19-2ae1-4e50-9328-7651772f7d3f.jpg",
+            "image_heading": "John Buffer",
+            "author_name": "John Buffer",
+            "author_designation": "Ceo Founder",
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+          }
+        },
+        "1570173906227": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/05.jpg",
+            "image_heading": "Sandra Ellips",
+            "author_name": "Sandra Ellips",
+            "author_designation": "Support Boss",
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+          }
+        },
+        "1570174004731": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/02_e8003bcc-e1c5-4f01-b43b-3a4e78a7b63d.jpg",
+            "image_heading": "Craig Wilson",
+            "author_name": "Craig Wilson",
+            "author_designation": "Client Care",
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+          }
+        },
+        "1570173938187": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/08.jpg",
+            "image_heading": "Sally Ramsey",
+            "author_name": "Sally Ramsey",
+            "author_designation": "Delivery Driver",
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+          }
+        },
+        "1570174049687": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/03_6c0b88cc-0b05-4c99-9c4d-6ca6f56b5f08.jpg",
+            "image_heading": "Willie Bradley",
+            "author_name": "Willie Bradley",
+            "author_designation": "manager",
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+          }
+        }
+      },
+      "block_order": [
+        "1570173823217",
+        "1570173875415",
+        "1570173906227",
+        "1570174004731",
+        "1570173938187",
+        "1570174049687"
+      ],
+      "settings": {
+        "subtitle": "Team Member",
+        "subtitle_color": "#777777",
+        "title": "Our Team",
+        "title_color": "#222222",
+        "ourteam_column": "5"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "team"
+  ]
+}
