@@ -1,0 +1,70 @@
+<section>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <div class="section-title text-center">
+            <h2>{{ section.settings.title }}</h2>
+            <p>{{ section.settings.subtitle }}</p>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+        {% for block in section.blocks %}
+        <div class="col-md-4">
+            <div class="offer-box">
+            <div class="offer-img">
+                <img src="{{ block.settings.topoffer-img | img_url: '62x52' }}" alt="">
+            </div>
+            <div class="offer-content">
+                <h3>{{ block.settings.title }}</h3>
+                <p>{{ block.settings.subtitle }}</p>
+            </div>
+            </div>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+"name": "cms-offer",
+"class": "index-section cms-offer",
+
+"blocks": [
+{
+"type": "offer_text",
+"name": "services",
+"settings": [
+{
+"type": "url",
+"id": "offer_img_url",
+"label": "Offer Image URL"
+},
+{
+"type": "image_picker",
+"id": "topoffer-img",
+"label": "Offer Image",
+"info": "Size: 62x52"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Title"
+},            
+{
+"type": "text",
+"id": "subtitle",
+"label": "Sub Title"
+}
+]
+}
+],
+"presets": [
+{
+"category": "Image",
+"name": "dummy-slider",
+}
+]
+}
+{% endschema %}

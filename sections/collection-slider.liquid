@@ -1,0 +1,178 @@
+<style>
+  .img-swiper-slide {
+    border-radius: 24px;
+    border: 2px solid var(--primary-border-color);
+    {% comment %} box-shadow: 4px 4px 0px 0px #CE8388; {% endcomment %}
+    position: relative;
+    width: 120px;
+    height: 0px;
+    overflow: hidden;
+    padding-bottom: 6%;
+  }
+
+  .col-sld-img{
+    position: absolute;
+    height: 78%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 24px;
+  }
+
+  .slider-title-txt{
+   bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  margin-bottom: 6px;
+  color: #222222;
+  text-align: center;
+  font-weight: 600;
+}
+
+  @media screen and (min-width: 560px) {
+    .img-swiper-slide {
+      {% comment %} height: 340px; {% endcomment %}
+    }
+  }
+
+  .big-marquee {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 28px;
+  }
+
+  .big-marquee__group {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 28px;
+    min-width: 100%;
+    animation: scroll-x-sm calc(var(--section-blocks-size, 10) * 10s) linear infinite;
+  }
+
+  .col-slider-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .big-marquee__group {
+      animation-play-state: paused;
+    }
+  }
+
+  .reverse-big-marquee .big-marquee__group {
+    animation: scroll-x-reverse calc(var(--section-blocks-size, 10) * 10s) linear infinite;
+  }
+
+  @keyframes scroll-x-sm {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 10px));
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @media screen and (min-width: 560px) {
+    .block {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 960px) {
+    .mt-custom {
+      margin-top: 55px;
+    }
+  }
+</style>
+
+<div class=" block mt-custom">
+  <h1 style="font-size:20px" class="container">{{ section.settings.sec_title }}</h1>
+  <div class="big-marquee">
+    <div class="big-marquee__group">
+      {% for item in section.blocks %}
+        <div class="img-swiper-slide">
+            {% if item.settings.col.url %}
+              <a href="{{ item.settings.col.url }}"> 
+            {% endif %}
+                {% comment %} {% render 'image' with item.settings.slider_img.featured_image , class:"col-sld-img" %} {% endcomment %}
+                  {% render 'image' with item.settings.slider_img , class:"col-sld-img" %}
+            {% if item.settings.col.url %}
+              </a>
+            {% endif %}
+             
+            <p class="slider-title-txt">{{item.settings.title }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="big-marquee__group">
+      {% for item in section.blocks %}
+        <div class="img-swiper-slide">
+        {% comment %} {% if item.settings.slider_img.url %}
+            <a href="{{ item.settings.slider_img.url }}"> 
+          {% endif %}
+              {% render 'image' with item.settings.slider_img.featured_image , class:"col-sld-img" %}
+          {% if item.settings.slider_img.url %}
+            </a>
+          {% endif %} {% endcomment %}
+            {% render 'image' with item.settings.slider_img , class:"col-sld-img" %}
+           <p class="slider-title-txt">{{  item.settings.title }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "sec_title",
+      "label": "Section Title",
+      "default": "Our Collection"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "slider_img",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Title"
+        },
+        {
+          "type": "collection",
+          "id": "col",
+          "label": "Collection Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "Collection slider"
+    }
+  ]
+}
+{% endschema %}
