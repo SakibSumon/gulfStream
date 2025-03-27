@@ -1,18 +1,17 @@
 <style>
   .img-swiper-slide {
-    border-radius: 24px;
     border: 2px solid var(--primary-border-color);
     {% comment %} box-shadow: 4px 4px 0px 0px #CE8388; {% endcomment %}
     position: relative;
     width: 120px;
     height: 0px;
     overflow: hidden;
-    padding-bottom: 6%;
+    padding-bottom: 7%;
   }
 
   .col-sld-img{
     position: absolute;
-    height: 78%;
+    height: 70%;
     width: 100%;
     top: 0;
     left: 0;
@@ -21,14 +20,14 @@
   }
 
   .slider-title-txt{
-   bottom: -10px;
+   bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
   margin-bottom: 6px;
   color: #222222;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 
   @media screen and (min-width: 560px) {
@@ -51,7 +50,7 @@
     justify-content: space-around;
     gap: 28px;
     min-width: 100%;
-    animation: scroll-x-sm calc(var(--section-blocks-size, 10) * 10s) linear infinite;
+    {% comment %} animation: scroll-x-sm calc(var(--section-blocks-size, 10) * 10s) linear infinite; {% endcomment %}
   }
 
   .col-slider-img{
