@@ -6,14 +6,14 @@
         "1580215063672-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/woman-shopping-for-clothes.jpg",
+            "image": "shopify:\/\/shop_images\/Main_Banner_-_Electronics.png",
             "image_link": "#",
             "show_video": false,
-            "video_url": "https:\/\/www.youtube.com\/watch?v=245jz3ZqZqM",
-            "title": "CORONA COVID-19\nPrevention & Care Supplies",
-            "sub_title": "First Time on Wareshouse Store Sale!",
-            "btn_txt": "Shop Now",
-            "btn_link": "#",
+            "video_url": "",
+            "title": "",
+            "sub_title": "",
+            "btn_txt": "",
+            "btn_link": "",
             "title_color": "#ffffff",
             "subtitle_color": "#222222",
             "subtitle_bg_color": "#ffcc00",
@@ -28,13 +28,13 @@
         "1580215063672-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/autumn-walk-hand-in-hand.jpg",
+            "image": "shopify:\/\/shop_images\/Main_Banner-Home_Kitchen.png",
             "image_link": "#",
             "show_video": false,
             "video_url": "",
-            "title": "Decoy Bovinos rs<br>\nControle Biologico",
-            "sub_title": "First Time on Wareshouse Store Sale!",
-            "btn_txt": "Shop Now",
+            "title": "",
+            "sub_title": "",
+            "btn_txt": "",
             "btn_link": "#",
             "title_color": "#ffffff",
             "subtitle_color": "#222222",
@@ -46,16 +46,560 @@
             "text_position": "left",
             "text_effect": "right"
           }
+        },
+        "image_ytQPpe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Main_Banner_-_Fashion.png",
+            "image_link": "",
+            "show_video": false,
+            "video_url": "",
+            "title": "",
+            "sub_title": "",
+            "btn_txt": "",
+            "btn_link": "",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
+            "subtitle_bg_color": "#ffcc00",
+            "btn_bg_color": "#eb3039",
+            "btn_txt_color": "#ffffff",
+            "btn_border_color": "#ffffff",
+            "btn_hovertxt_color": "#ffffff",
+            "text_position": "left",
+            "text_effect": "left"
+          }
+        },
+        "image_PqfXFx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Main_Banner_-_Beauty_and_fragrance.png",
+            "image_link": "",
+            "show_video": false,
+            "video_url": "",
+            "title": "",
+            "sub_title": "",
+            "btn_txt": "",
+            "btn_link": "",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
+            "subtitle_bg_color": "#ffcc00",
+            "btn_bg_color": "#eb3039",
+            "btn_txt_color": "#ffffff",
+            "btn_border_color": "#ffffff",
+            "btn_hovertxt_color": "#ffffff",
+            "text_position": "left",
+            "text_effect": "left"
+          }
         }
       },
       "block_order": [
         "1580215063672-0",
-        "1580215063672-1"
+        "1580215063672-1",
+        "image_ytQPpe",
+        "image_PqfXFx"
       ],
       "settings": {
-        "slider_animation_type": "fade",
+        "slider_animation_type": "slide",
         "slide_button_txt_color": "#ffffff",
-        "slide_button_txt_hover_color": "#f8d81b"
+        "slide_button_txt_hover_color": "#ff9d23"
+      }
+    },
+    "top-category": {
+      "type": "top-category",
+      "blocks": {
+        "6c1d3cc6-0685-45f1-bf01-66c37aacadb0": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/collections\/fashion",
+            "title": "Fashion",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "9b81100d-ce10-44d8-ab06-ad0fbff91ce9": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/collections\/baby",
+            "title": "Baby Care",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "f3a3d0c8-c0a8-4981-ad71-22af75662f7b": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/collections\/gift-sets",
+            "title": "Gifts & Specialty",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        },
+        "8d98320a-816b-4ec1-8d3d-f5865fd118db": {
+          "type": "text",
+          "settings": {
+            "topcat_url": "shopify:\/\/products\/ellen-dining-chair",
+            "title": "Household Items",
+            "tt_mn_show_sub": false,
+            "tt_sub_menu_clinklist": ""
+          }
+        }
+      },
+      "block_order": [
+        "6c1d3cc6-0685-45f1-bf01-66c37aacadb0",
+        "9b81100d-ce10-44d8-ab06-ad0fbff91ce9",
+        "f3a3d0c8-c0a8-4981-ad71-22af75662f7b",
+        "8d98320a-816b-4ec1-8d3d-f5865fd118db"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "title_color": "#111111",
+        "title_hover_color": "#24aeb1",
+        "more_menu_category": "9",
+        "display_barcode": false,
+        "bar_title": "Enjoy Convevient Order Tracking",
+        "bar_title_clr": "#333333",
+        "bar_desc": "Scan To Download App",
+        "bar_desc_clr": "#666666"
+      }
+    },
+    "16530481607550e476": {
+      "type": "cms-blockbanner",
+      "blocks": {
+        "83bd01a2-635a-4af7-9189-b3296a19bdae": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/Up_to_30_Off_5.png",
+            "banner_link1": "shopify:\/\/collections\/perfumes",
+            "title": "Perfumes",
+            "title_color": "#ffffff",
+            "subtitle": "Upto 45% off",
+            "subtitle_color": "#ffffff",
+            "btn": "Shop Now",
+            "btn_link1": "shopify:\/\/collections\/perfumes",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "#ffcc00",
+            "btnhvrtxt_color": "#222222",
+            "text_position": "left"
+          }
+        },
+        "1ffa6be1-4078-4d58-853d-09264aaba242": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/Up_to_30_Off_3.png",
+            "banner_link1": "shopify:\/\/collections\/beauty-skin-care",
+            "title": "Beauty Products",
+            "title_color": "#ffffff",
+            "subtitle": "Seasonal Sale upto 45% off",
+            "subtitle_color": "#ffffff",
+            "btn": "Shop Now",
+            "btn_link1": "shopify:\/\/collections\/beauty-skin-care",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "#ffcc00",
+            "btnhvrtxt_color": "#222222",
+            "text_position": "left"
+          }
+        },
+        "image_JmPKWg": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/Up_to_30_Off_a9a128aa-1dca-48ca-a9a2-930cf98e2ae9.png",
+            "banner_link1": "shopify:\/\/collections\/fashion",
+            "title": "Fashion Sale",
+            "title_color": "#222222",
+            "subtitle": "Summer Offer",
+            "subtitle_color": "#222222",
+            "btn": "Shop Now",
+            "btn_link1": "",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "83bd01a2-635a-4af7-9189-b3296a19bdae",
+        "1ffa6be1-4078-4d58-853d-09264aaba242",
+        "image_JmPKWg"
+      ],
+      "settings": {}
+    },
+    "category_feature_XFeKAE": {
+      "type": "category-feature",
+      "blocks": {
+        "text_collection_3xTzgF": {
+          "type": "text_collection",
+          "settings": {
+            "collection_title": "Men & Women Fashion",
+            "btn_txt": "View All",
+            "collection_cat_id": "fashion",
+            "sub_image_1": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T215114.271.png",
+            "sub_collection_title_1": "Men Fashion",
+            "sub_collection_cat_id_1": "men-fashion",
+            "sub_image_2": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T215303.594.png",
+            "sub_collection_title_2": "Women Fashion",
+            "sub_collection_cat_id_2": "women-fashion",
+            "sub_image_3": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T215500.696.png",
+            "sub_collection_title_3": "Men Footwear",
+            "sub_collection_cat_id_3": "men-footwear",
+            "sub_image_4": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T215850.096.png",
+            "sub_collection_title_4": "Women Footwear",
+            "sub_collection_cat_id_4": "women-footwear",
+            "sub_image_5": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T221015.256.png",
+            "sub_collection_title_5": "Men Bags & Accessories",
+            "sub_collection_cat_id_5": "men-bags-accessories",
+            "sub_image_6": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T221136.238.png",
+            "sub_collection_title_6": "Women Bags & Accessories",
+            "sub_collection_cat_id_6": "women-bags-accessories"
+          }
+        },
+        "text_collection_zF7XCa": {
+          "type": "text_collection",
+          "settings": {
+            "collection_title": "Electronics",
+            "btn_txt": "View All",
+            "collection_cat_id": "electronic",
+            "sub_image_1": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T221421.117.png",
+            "sub_collection_title_1": "Mobile Phones",
+            "sub_collection_cat_id_1": "mobile-phones",
+            "sub_image_2": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T221606.099.png",
+            "sub_collection_title_2": "Laptops",
+            "sub_collection_cat_id_2": "laptops",
+            "sub_image_3": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T221744.316.png",
+            "sub_collection_title_3": "Cameras",
+            "sub_collection_cat_id_3": "cameras",
+            "sub_image_4": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T222054.086.png",
+            "sub_collection_title_4": "Accessories",
+            "sub_collection_cat_id_4": "electronics-accessories",
+            "sub_image_5": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T222213.107.png",
+            "sub_collection_title_5": "TV",
+            "sub_collection_cat_id_5": "tv-home-entertainment",
+            "sub_image_6": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T222322.129.png",
+            "sub_collection_title_6": "Entertainment",
+            "sub_collection_cat_id_6": "tv-home-entertainment"
+          }
+        },
+        "text_collection_88JtLW": {
+          "type": "text_collection",
+          "settings": {
+            "collection_title": "Beauty & Fragrance",
+            "btn_txt": "View All",
+            "collection_cat_id": "perfumes",
+            "sub_image_1": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T222714.783.png",
+            "sub_collection_title_1": "Perfumes",
+            "sub_collection_cat_id_1": "perfumes",
+            "sub_image_2": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T222900.517.png",
+            "sub_collection_title_2": "Beauty",
+            "sub_collection_cat_id_2": "beauty-skin-care",
+            "sub_image_3": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T223111.099.png",
+            "sub_collection_title_3": "Skin Care",
+            "sub_collection_cat_id_3": "skin-care",
+            "sub_image_4": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T223223.239.png",
+            "sub_collection_title_4": "Hair Care",
+            "sub_collection_cat_id_4": "hair-care",
+            "sub_image_5": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T223338.157_9f5aacdf-e4ce-4725-95b0-dc43134f56d0.png",
+            "sub_collection_title_5": "For Men",
+            "sub_collection_cat_id_5": "perfumes-for-men",
+            "sub_image_6": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T223454.053.png",
+            "sub_collection_title_6": "For Women",
+            "sub_collection_cat_id_6": "perfumes-for-women-1"
+          }
+        },
+        "text_collection_XFrtWF": {
+          "type": "text_collection",
+          "settings": {
+            "collection_title": "Home & Living",
+            "btn_txt": "View All",
+            "collection_cat_id": "kitchen",
+            "sub_image_1": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T224241.163.png",
+            "sub_collection_title_1": "Kitchen",
+            "sub_collection_cat_id_1": "kitchen",
+            "sub_image_2": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T224647.121.png",
+            "sub_collection_title_2": "Home Decor",
+            "sub_collection_cat_id_2": "home-decor",
+            "sub_image_3": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T224817.196.png",
+            "sub_collection_title_3": "Home improvement",
+            "sub_collection_cat_id_3": "home-improvement",
+            "sub_image_4": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T224920.011.png",
+            "sub_collection_title_4": "Home appliances",
+            "sub_collection_cat_id_4": "home-appliances",
+            "sub_image_5": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T225052.022.png",
+            "sub_collection_title_5": "Bath& bedding",
+            "sub_collection_cat_id_5": "bath-bedding",
+            "sub_image_6": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T225157.081.png",
+            "sub_collection_title_6": "Furniture",
+            "sub_collection_cat_id_6": "furniture"
+          }
+        },
+        "text_collection_9y9Bqe": {
+          "type": "text_collection",
+          "settings": {
+            "collection_title": "Lifestyle & Essentials",
+            "btn_txt": "View All",
+            "collection_cat_id": "watches",
+            "sub_image_1": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T225433.000.png",
+            "sub_collection_title_1": "Watches",
+            "sub_collection_cat_id_1": "watches",
+            "sub_image_2": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T225603.998.png",
+            "sub_collection_title_2": "Baby",
+            "sub_collection_cat_id_2": "baby",
+            "sub_image_3": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T225729.473_54cce1b5-d5a8-4944-b52d-e5abea021529.png",
+            "sub_collection_title_3": "Sports",
+            "sub_collection_cat_id_3": "sports",
+            "sub_image_4": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T225904.122.png",
+            "sub_collection_title_4": "Automotive",
+            "sub_collection_cat_id_4": "automotive",
+            "sub_image_5": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T230110.074_b22657fe-9a1b-4715-a483-9520577d8677.png",
+            "sub_collection_title_5": "Toys",
+            "sub_collection_cat_id_5": "toys",
+            "sub_image_6": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-28T230248.139.png",
+            "sub_collection_title_6": "All Categories",
+            "sub_collection_cat_id_6": "toys"
+          }
+        }
+      },
+      "block_order": [
+        "text_collection_3xTzgF",
+        "text_collection_zF7XCa",
+        "text_collection_88JtLW",
+        "text_collection_XFrtWF",
+        "text_collection_9y9Bqe"
+      ],
+      "settings": {
+        "title": "Our Categories",
+        "subtitle": "Over 20+ Depratments",
+        "image_content_bg_color": "#ff9d23",
+        "title_color": "#111111",
+        "button_text_color": "#ff9d23",
+        "sub_bg_color": "#ff9d23",
+        "sub_title_color": "#ff9d23",
+        "sub_bg_title_color": "#222222",
+        "sub_title_hv_color": "#ff9d23",
+        "sub_bg_title_hv_color": "#222222"
+      }
+    },
+    "product-tab-model": {
+      "type": "product-tab-model",
+      "blocks": {
+        "1595650811758-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "New Products",
+            "collection": "beauty-skin-care"
+          }
+        }
+      },
+      "block_order": [
+        "1595650811758-0"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "6",
+        "title": "New Products",
+        "subtitle": "",
+        "button_text": "#666666",
+        "button_hover_text": "#111111",
+        "bg_color": "#f1ece8"
+      }
+    },
+    "cms-banner": {
+      "type": "cms-banner",
+      "settings": {
+        "banner1_img": "shopify:\/\/shop_images\/Untitled_design_94.png",
+        "banner1_url": "shopify:\/\/collections\/electronic",
+        "text1_position": "right",
+        "banner1_subtitle": "Maximize Your Savings",
+        "banner1_subtitle_color": "#ffffff",
+        "banner1_title": "Extra 50 AED OFF",
+        "banner1_title_color": "#ffffff",
+        "btn1_text": "Shop Now",
+        "btn_link1": "#",
+        "btn1_bg_color": "#222222",
+        "btn1_txt_color": "#ff9d23",
+        "btn1_txt_hover_color": "#ffffff",
+        "btn1_bg_hover_color": "#222222",
+        "banner2_img": "shopify:\/\/shop_images\/Untitled_design_96.png",
+        "banner2_url": "shopify:\/\/collections\/sports",
+        "text2_position": "left",
+        "banner2_subtitle": "UPTO 65% OFF",
+        "banner2_subtitle_color": "#ffffff",
+        "banner2_title": "SPORTS & OUTDOOR",
+        "banner2_title_color": "#ffffff",
+        "btn2_text": "Shop Now",
+        "btn_link2": "shopify:\/\/collections\/sports",
+        "btn2_bg_color": "#222222",
+        "btn2_txt_color": "#ff9d23",
+        "btn2_txt_hover_color": "#ffffff",
+        "btn2_bg_hover_color": "#222222"
+      }
+    },
+    "product_tab_model_g4Q6Ng": {
+      "type": "product-tab-model",
+      "blocks": {
+        "text_block_UXagHN": {
+          "type": "text_block",
+          "settings": {
+            "title": "Tab Name",
+            "collection": "mobile-phones"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_UXagHN"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "6",
+        "title": "Trending products",
+        "subtitle": "",
+        "button_text": "#000000",
+        "button_hover_text": "#ffffff",
+        "bg_color": "#000000"
+      }
+    },
+    "cms_blockbanner_7b4RK8": {
+      "type": "cms-blockbanner",
+      "blocks": {
+        "image_Jpnj7p": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/watches_4.png",
+            "banner_link1": "shopify:\/\/collections\/watches",
+            "title": "Luxury Watches",
+            "title_color": "#ffffff",
+            "subtitle": "Upto 35% off",
+            "subtitle_color": "#ffffff",
+            "btn": "Shop Now",
+            "btn_link1": "shopify:\/\/collections\/perfumes",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "#ffcc00",
+            "btnhvrtxt_color": "#222222",
+            "text_position": "left"
+          }
+        },
+        "image_dTLGcT": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/watches_3_07954ff7-19dd-491c-8c52-193341994e70.png",
+            "banner_link1": "shopify:\/\/collections\/home-decor",
+            "title": "HOME DECOR",
+            "title_color": "#ffffff",
+            "subtitle": "UPGRADE YOUR SPACE UPTO 45% OFF",
+            "subtitle_color": "#ffffff",
+            "btn": "Shop Now",
+            "btn_link1": "shopify:\/\/collections\/beauty-skin-care",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "#ffcc00",
+            "btnhvrtxt_color": "#222222",
+            "text_position": "left"
+          }
+        },
+        "image_QgTPUJ": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/watches_2.png",
+            "banner_link1": "shopify:\/\/collections\/toys",
+            "title": "Flash Sale",
+            "title_color": "#222222",
+            "subtitle": "BABY TOYS",
+            "subtitle_color": "#222222",
+            "btn": "Shop Now",
+            "btn_link1": "",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_Jpnj7p",
+        "image_dTLGcT",
+        "image_QgTPUJ"
+      ],
+      "settings": {}
+    },
+    "1653048136a31ebeec": {
+      "type": "featured-product",
+      "settings": {
+        "class": "fetureproduct",
+        "product_rows": true,
+        "title": "Features Products",
+        "subtitle": "",
+        "collection": "beauty-skin-care",
+        "product_col": "2"
+      }
+    },
+    "best-seller": {
+      "type": "best-seller",
+      "settings": {
+        "class": "bestproduct",
+        "product_rows": true,
+        "title": "Best Selling",
+        "subtitle": "",
+        "collection": "perfumes",
+        "product_col": "2"
+      }
+    },
+    "cms_banner_Gx94b9": {
+      "type": "cms-banner",
+      "settings": {
+        "banner1_img": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-29T003028.607.png",
+        "banner1_url": "shopify:\/\/collections\/kitchen",
+        "text1_position": "left",
+        "banner1_subtitle": "Cook Like a Pro: Exclusive Discounts",
+        "banner1_subtitle_color": "#ffffff",
+        "banner1_title": "35% OFF",
+        "banner1_title_color": "#ffffff",
+        "btn1_text": "Shop Now",
+        "btn_link1": "#",
+        "btn1_bg_color": "#222222",
+        "btn1_txt_color": "#ff9d23",
+        "btn1_txt_hover_color": "#ffffff",
+        "btn1_bg_hover_color": "#222222",
+        "banner2_img": "shopify:\/\/shop_images\/Untitled_design_96.png",
+        "banner2_url": "shopify:\/\/collections\/sports",
+        "text2_position": "left",
+        "banner2_subtitle": "UPTO 65% OFF",
+        "banner2_subtitle_color": "#ffffff",
+        "banner2_title": "SPORTS & OUTDOOR",
+        "banner2_title_color": "#ffffff",
+        "btn2_text": "Shop Now",
+        "btn_link2": "shopify:\/\/collections\/sports",
+        "btn2_bg_color": "#222222",
+        "btn2_txt_color": "#ff9d23",
+        "btn2_txt_hover_color": "#ffffff",
+        "btn2_bg_hover_color": "#222222"
+      }
+    },
+    "product_tab_model_GJEqNf": {
+      "type": "product-tab-model",
+      "blocks": {
+        "text_block_eMfgNr": {
+          "type": "text_block",
+          "settings": {
+            "title": "Tab Name",
+            "collection": "beauty-skin-care"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_eMfgNr"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "6",
+        "title": "Trending products",
+        "subtitle": "",
+        "button_text": "#000000",
+        "button_hover_text": "#ffffff",
+        "bg_color": "#000000"
       }
     },
     "collection_slider_VPqQnk": {
@@ -65,7 +609,7 @@
           "type": "collection",
           "settings": {
             "slider_img": "shopify:\/\/shop_images\/square_1_b7643539-e625-46d4-bc6a-bb94178e52f5.png",
-            "title": "Phones",
+            "title": "",
             "col": "mobile-phones"
           }
         },
@@ -218,329 +762,101 @@
         "collection_hNgp8C"
       ],
       "settings": {
-        "sec_title": "Our Collection"
+        "sec_title": "EXPLORE OUR PREMIUM BRANDS"
       }
     },
-    "top-category": {
-      "type": "top-category",
-      "blocks": {
-        "6c1d3cc6-0685-45f1-bf01-66c37aacadb0": {
-          "type": "text",
-          "settings": {
-            "topcat_url": "shopify:\/\/products\/amber-square-air-shirt",
-            "title": "Apparel & Fashion",
-            "tt_mn_show_sub": true,
-            "tt_sub_menu_clinklist": ""
-          }
-        },
-        "9b81100d-ce10-44d8-ab06-ad0fbff91ce9": {
-          "type": "text",
-          "settings": {
-            "topcat_url": "shopify:\/\/products\/eye-drops-gouttes-oculaires-lubricating-ophthalmic-solution",
-            "title": "Baby & Child Care",
-            "tt_mn_show_sub": false,
-            "tt_sub_menu_clinklist": ""
-          }
-        },
-        "d0cc25b8-deae-4caf-bef5-07a13d26c30e": {
-          "type": "text",
-          "settings": {
-            "topcat_url": "shopify:\/\/products\/fresh-organics-red-onion",
-            "title": "Diet & Nutrition",
-            "tt_mn_show_sub": false,
-            "tt_sub_menu_clinklist": ""
-          }
-        },
-        "f3a3d0c8-c0a8-4981-ad71-22af75662f7b": {
-          "type": "text",
-          "settings": {
-            "topcat_url": "shopify:\/\/products\/bang-olufsen-beoplay-h4-2nd-gen-wireless-over-ear-headphone",
-            "title": "Gifts & Specialty",
-            "tt_mn_show_sub": false,
-            "tt_sub_menu_clinklist": ""
-          }
-        },
-        "373ec640-899c-4aa6-80cf-0e01be1a64f5": {
-          "type": "text",
-          "settings": {
-            "topcat_url": "shopify:\/\/products\/domestic-gourmet-automatic-espresso-coffee-capsule-machine",
-            "title": "Home & Electronics",
-            "tt_mn_show_sub": false,
-            "tt_sub_menu_clinklist": ""
-          }
-        },
-        "8d98320a-816b-4ec1-8d3d-f5865fd118db": {
-          "type": "text",
-          "settings": {
-            "topcat_url": "shopify:\/\/products\/ellen-dining-chair",
-            "title": "Household Items",
-            "tt_mn_show_sub": false,
-            "tt_sub_menu_clinklist": ""
-          }
-        },
-        "4319a167-cc23-4b12-9530-d3de96a790fa": {
-          "type": "text",
-          "settings": {
-            "topcat_url": "shopify:\/\/products\/french-door-refrigerator-in-fingerprint-resistant-stainless-steel",
-            "title": "Vehicles & Accessories",
-            "tt_mn_show_sub": false,
-            "tt_sub_menu_clinklist": ""
-          }
-        },
-        "eb56fb3e-e7be-4083-ae46-406c34513c88": {
-          "type": "text",
-          "settings": {
-            "topcat_url": "shopify:\/\/collections\/all",
-            "title": "All Category",
-            "tt_mn_show_sub": false,
-            "tt_sub_menu_clinklist": ""
-          }
-        }
-      },
-      "block_order": [
-        "6c1d3cc6-0685-45f1-bf01-66c37aacadb0",
-        "9b81100d-ce10-44d8-ab06-ad0fbff91ce9",
-        "d0cc25b8-deae-4caf-bef5-07a13d26c30e",
-        "f3a3d0c8-c0a8-4981-ad71-22af75662f7b",
-        "373ec640-899c-4aa6-80cf-0e01be1a64f5",
-        "8d98320a-816b-4ec1-8d3d-f5865fd118db",
-        "4319a167-cc23-4b12-9530-d3de96a790fa",
-        "eb56fb3e-e7be-4083-ae46-406c34513c88"
-      ],
-      "settings": {
-        "bg_color": "#ffffff",
-        "title_color": "#111111",
-        "title_hover_color": "#24aeb1",
-        "more_menu_category": "9",
-        "display_barcode": false,
-        "bar_title": "Enjoy Convevient Order Tracking",
-        "bar_title_clr": "#333333",
-        "bar_desc": "Scan To Download App",
-        "bar_desc_clr": "#666666"
-      }
-    },
-    "16530481607550e476": {
+    "cms_blockbanner_jRibnQ": {
       "type": "cms-blockbanner",
       "blocks": {
-        "83bd01a2-635a-4af7-9189-b3296a19bdae": {
+        "image_4GT3q9": {
           "type": "image",
           "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/autumn-photographer-taking-picture.jpg",
             "banner_link1": "",
-            "title": "Metoprolol",
+            "title": "Kid's Corner",
             "title_color": "#ffffff",
-            "subtitle": "ER 50MG Tablet",
+            "subtitle": "Kid's Corner",
             "subtitle_color": "#ffffff",
             "btn": "Shop Now",
-            "btn_link1": "#",
-            "btnbg_color": "#ffffff",
-            "btntxt_color": "#222222",
-            "btnhvr_color": "#ffcc00",
-            "btnhvrtxt_color": "#222222",
-            "text_position": "right"
+            "btn_link1": "",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "left"
           }
         },
-        "1ffa6be1-4078-4d58-853d-09264aaba242": {
+        "image_qVxknt": {
           "type": "image",
           "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/dog-fetching-disc.jpg",
             "banner_link1": "",
-            "title": "Epidiolex",
+            "title": "Kid's Corner",
             "title_color": "#ffffff",
-            "subtitle": "100mg\/ml Oral Solution",
+            "subtitle": "Kid's Corner",
             "subtitle_color": "#ffffff",
             "btn": "Shop Now",
-            "btn_link1": "#",
-            "btnbg_color": "#ffffff",
-            "btntxt_color": "#222222",
-            "btnhvr_color": "#ffcc00",
-            "btnhvrtxt_color": "#222222",
-            "text_position": "right"
+            "btn_link1": "",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "left"
           }
         },
-        "a581534f-6f1a-425e-8dd7-542da28697f0": {
+        "image_jtjEfy": {
           "type": "image",
           "settings": {
+            "banner_image1": "shopify:\/\/shop_images\/studded-flats.jpg",
             "banner_link1": "",
-            "title": "Vitality Tablets",
+            "title": "Kid's Corner",
             "title_color": "#ffffff",
-            "subtitle": "Man Matters",
+            "subtitle": "Kid's Corner",
             "subtitle_color": "#ffffff",
             "btn": "Shop Now",
-            "btn_link1": "#",
-            "btnbg_color": "#ffffff",
-            "btntxt_color": "#222222",
-            "btnhvr_color": "#ffcc00",
-            "btnhvrtxt_color": "#222222",
-            "text_position": "right"
+            "btn_link1": "",
+            "btnbg_color": "#222222",
+            "btntxt_color": "#ff9d23",
+            "btnhvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "left"
           }
         }
       },
       "block_order": [
-        "83bd01a2-635a-4af7-9189-b3296a19bdae",
-        "1ffa6be1-4078-4d58-853d-09264aaba242",
-        "a581534f-6f1a-425e-8dd7-542da28697f0"
+        "image_4GT3q9",
+        "image_qVxknt",
+        "image_jtjEfy"
       ],
       "settings": {}
     },
-    "category-feature": {
-      "type": "category-feature",
-      "blocks": {
-        "1622714104fc54d870-0": {
-          "type": "text_collection",
-          "settings": {
-            "collection_title": "Ayurvedic",
-            "btn_txt": "View All",
-            "collection_cat_id": "special-medicine",
-            "sub_collection_title_1": "Bio",
-            "sub_collection_cat_id_1": "special-medicine",
-            "sub_collection_title_2": "Cystone",
-            "sub_collection_cat_id_2": "special-medicine",
-            "sub_collection_title_3": "Honey",
-            "sub_collection_cat_id_3": "special-medicine",
-            "sub_collection_title_4": "Immunity",
-            "sub_collection_cat_id_4": "special-medicine",
-            "sub_collection_title_5": "Oils",
-            "sub_collection_cat_id_5": "special-medicine",
-            "sub_collection_title_6": "ToothPaste",
-            "sub_collection_cat_id_6": "special-medicine"
-          }
-        },
-        "1d0c01a2-d68a-4089-b7a9-024ee2f38fd5": {
-          "type": "text_collection",
-          "settings": {
-            "collection_title": "Baby Care",
-            "btn_txt": "View All",
-            "collection_cat_id": "special-medicine",
-            "sub_collection_title_1": "Bath-Time",
-            "sub_collection_cat_id_1": "",
-            "sub_collection_title_2": "Hygiene",
-            "sub_collection_cat_id_2": "",
-            "sub_collection_title_3": "Medicine",
-            "sub_collection_cat_id_3": "",
-            "sub_collection_title_4": "Pampers",
-            "sub_collection_cat_id_4": "",
-            "sub_collection_title_5": "Stroller",
-            "sub_collection_cat_id_5": "",
-            "sub_collection_title_6": "Jacket",
-            "sub_collection_cat_id_6": ""
-          }
-        },
-        "d1b19b99-2fa5-44ac-8cbd-7bd64ea75ab5": {
-          "type": "text_collection",
-          "settings": {
-            "collection_title": "Covid Essentials",
-            "btn_txt": "View All",
-            "collection_cat_id": "special-medicine",
-            "sub_collection_title_1": "Gloves",
-            "sub_collection_cat_id_1": "",
-            "sub_collection_title_2": "Mask",
-            "sub_collection_cat_id_2": "",
-            "sub_collection_title_3": "Medicine",
-            "sub_collection_cat_id_3": "",
-            "sub_collection_title_4": "Oximeter",
-            "sub_collection_cat_id_4": "",
-            "sub_collection_title_5": "Sanitizer",
-            "sub_collection_cat_id_5": "",
-            "sub_collection_title_6": "Temperature",
-            "sub_collection_cat_id_6": ""
-          }
-        }
-      },
-      "block_order": [
-        "1622714104fc54d870-0",
-        "1d0c01a2-d68a-4089-b7a9-024ee2f38fd5",
-        "d1b19b99-2fa5-44ac-8cbd-7bd64ea75ab5"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Shop By Categories",
-        "subtitle": "Over 100+ Styles",
-        "image_content_bg_color": "#ffffff",
-        "title_color": "#222222",
-        "button_text_color": "#24aeb1",
-        "sub_bg_color": "#eff2f9",
-        "sub_title_color": "#222222",
-        "sub_bg_title_color": "#ffffff",
-        "sub_title_hv_color": "#ffffff",
-        "sub_bg_title_hv_color": "#24aeb1"
-      }
-    },
-    "product-tab-model": {
+    "product_tab_model_4RdbJf": {
       "type": "product-tab-model",
       "blocks": {
-        "1595650811758-0": {
+        "text_block_xaAdNQ": {
           "type": "text_block",
           "settings": {
-            "title": "New Products",
+            "title": "Tab Name",
             "collection": "beauty-skin-care"
           }
         }
       },
       "block_order": [
-        "1595650811758-0"
+        "text_block_xaAdNQ"
       ],
       "settings": {
         "product_rows": false,
         "product_col": "6",
-        "title": "New Products",
+        "title": "Trending products",
         "subtitle": "",
-        "button_text": "#666666",
-        "button_hover_text": "#111111",
-        "bg_color": "#f1ece8"
-      }
-    },
-    "cms-banner": {
-      "type": "cms-banner",
-      "settings": {
-        "banner1_url": "#",
-        "text1_position": "right",
-        "banner1_subtitle": "Weekend Sale",
-        "banner1_subtitle_color": "#ffffff",
-        "banner1_title": "Flat 25% OFF Medicare items",
-        "banner1_title_color": "#ffffff",
-        "btn1_text": "Shop Now",
-        "btn_link1": "#",
-        "btn1_bg_color": "#ffffff",
-        "btn1_txt_color": "#111111",
-        "btn1_txt_hover_color": "#ffffff",
-        "btn1_bg_hover_color": "#222222",
-        "banner2_url": "#",
-        "text2_position": "right",
-        "banner2_subtitle": "up to 50% off best selling",
-        "banner2_subtitle_color": "#ffffff",
-        "banner2_title": "Healthy Vitamin Power up",
-        "banner2_title_color": "#ffffff",
-        "btn2_text": "Shop Now",
-        "btn_link2": "#",
-        "btn2_bg_color": "#ffffff",
-        "btn2_txt_color": "#222222",
-        "btn2_txt_hover_color": "#ffffff",
-        "btn2_bg_hover_color": "#222222"
-      }
-    },
-    "1653048136a31ebeec": {
-      "type": "featured-product",
-      "settings": {
-        "class": "fetureproduct",
-        "product_rows": true,
-        "title": "Features Products",
-        "subtitle": "",
-        "collection": "beauty-skin-care",
-        "product_col": "2"
-      }
-    },
-    "best-seller": {
-      "type": "best-seller",
-      "settings": {
-        "class": "bestproduct",
-        "product_rows": true,
-        "title": "Best Selling",
-        "subtitle": "",
-        "collection": "special-medicine",
-        "product_col": "2"
+        "button_text": "#000000",
+        "button_hover_text": "#ffffff",
+        "bg_color": "#000000"
       }
     },
     "special-product": {
       "type": "special-product",
+      "disabled": true,
       "settings": {
         "class": "specialproduct",
         "bg_color": "#ffffff",
@@ -554,13 +870,74 @@
         "product_col": "6"
       }
     },
+    "our_brand": {
+      "type": "our_brand",
+      "blocks": {
+        "1605783755d6d9f598-1": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gucci.webp",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-0": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chanel.webp",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-2": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Guess.webp",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-4": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clive_Christian_logo_793ecc2b-8168-4daf-aa61-99188bacf355.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-5": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Swatch.webp",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-3": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gucci.webp",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1605783755d6d9f598-1",
+        "1605783755d6d9f598-0",
+        "1605783755d6d9f598-2",
+        "1605783755d6d9f598-4",
+        "1605783755d6d9f598-5",
+        "1605783755d6d9f598-3"
+      ],
+      "settings": {
+        "addclass": "brands",
+        "bg_color": "#ffffff",
+        "title": "Shop By Brands",
+        "subtitle": "Over 1000+ Brands"
+      }
+    },
     "feature-blogs": {
       "type": "feature-blogs",
       "settings": {
         "subtitle": "From the blog posts",
         "subtitle_color": "#666666",
         "title": "Latest News",
-        "blog": "medicine",
+        "blog": "news",
         "blog_design": "design_1",
         "product_col": "4",
         "post_limit": "5",
@@ -573,81 +950,73 @@
         "blog_show_date": true
       }
     },
-    "our_brand": {
-      "type": "our_brand",
+    "services_new_GCi88j": {
+      "type": "services-new",
       "blocks": {
-        "1605783755d6d9f598-0": {
-          "type": "brand_image",
+        "s_text_JJAFxH": {
+          "type": "s_text",
           "settings": {
-            "link": "#"
+            "title": "Fast Shipping",
+            "desc": "Get free shipping on all order above 50$",
+            "service_icon": "shopify:\/\/shop_images\/delivery-svgrepo-com_1.svg"
           }
         },
-        "1605783755d6d9f598-1": {
-          "type": "brand_image",
+        "s_text_DLXwe6": {
+          "type": "s_text",
           "settings": {
-            "link": "#"
+            "title": "Secure Payment",
+            "desc": "Get free shipping on all order above 50$",
+            "service_icon": "shopify:\/\/shop_images\/delivery-svgrepo-com_1.svg"
           }
         },
-        "1605783755d6d9f598-2": {
-          "type": "brand_image",
+        "s_text_my6pnj": {
+          "type": "s_text",
           "settings": {
-            "link": "#"
+            "title": "Easy Returns and Refunds",
+            "desc": "Get free shipping on all order above 50$",
+            "service_icon": "shopify:\/\/shop_images\/delivery-svgrepo-com_1.svg"
           }
         },
-        "1605783755d6d9f598-3": {
-          "type": "brand_image",
+        "s_text_whWaeT": {
+          "type": "s_text",
           "settings": {
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-4": {
-          "type": "brand_image",
-          "settings": {
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-5": {
-          "type": "brand_image",
-          "settings": {
-            "link": "#"
-          }
-        },
-        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd": {
-          "type": "brand_image",
-          "settings": {
-            "link": "#"
+            "title": "Support 24\/7",
+            "desc": "Get free shipping on all order above 50$",
+            "service_icon": "shopify:\/\/shop_images\/delivery-svgrepo-com_1.svg"
           }
         }
       },
       "block_order": [
-        "1605783755d6d9f598-0",
-        "1605783755d6d9f598-1",
-        "1605783755d6d9f598-2",
-        "1605783755d6d9f598-3",
-        "1605783755d6d9f598-4",
-        "1605783755d6d9f598-5",
-        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd"
+        "s_text_JJAFxH",
+        "s_text_DLXwe6",
+        "s_text_my6pnj",
+        "s_text_whWaeT"
       ],
       "settings": {
-        "addclass": "brands",
-        "bg_color": "#ffffff",
-        "title": "Shop By Brands",
-        "subtitle": "Over 1000+ Brands"
+        "title_color": "#ffffff",
+        "desc_color": "#ffffff"
       }
     }
   },
   "order": [
     "slideshow",
-    "collection_slider_VPqQnk",
     "top-category",
     "16530481607550e476",
-    "category-feature",
+    "category_feature_XFeKAE",
     "product-tab-model",
     "cms-banner",
+    "product_tab_model_g4Q6Ng",
+    "cms_blockbanner_7b4RK8",
     "1653048136a31ebeec",
     "best-seller",
+    "cms_banner_Gx94b9",
+    "product_tab_model_GJEqNf",
+    "collection_slider_VPqQnk",
+    "cms_blockbanner_jRibnQ",
+    "product_tab_model_4RdbJf",
     "special-product",
+    "our_brand",
     "feature-blogs",
-    "our_brand"
+    "services_new_GCi88j"
   ]
 }

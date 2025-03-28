@@ -1,0 +1,96 @@
+
+<style>
+
+  
+  #footer-services .ttcontent .service-title{color: {{ section.settings.title_color }};}
+  .new-serv-icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+</style>
+
+
+<div id="footer-services" class="ttservice hb-animate-element bottom-to-top">  
+    <div class="block_content owl-carousel" style="display: block;">
+      {% for block in section.blocks %}
+       {% if block.type != 'text' %}
+                <div class="ttcontent">
+                  <div class="service">
+                    {% comment %} <div id="icon-{{ block.id }}" class="ttshipping_img service-icon">
+                    </div> {% endcomment %}
+                    {% if block.settings.service_icon != blank %}
+                      <img loading="lazy" src="{{ block.settings.service_icon | img_url }}" class="new-serv-icon" alt="Service Icon" id="icon-{{ block.id }}" class="service-icon">
+                    {% endif %}
+                     
+                    <div class="content">
+                      {% if block.settings.title != blank %}
+                    <div class="service-title">{{ block.settings.title }}</div>
+                    {% endif %}
+                    {% if block.settings.desc != blank %}
+                    <div class="service-desc">{{ block.settings.desc }}</div>
+                    {% endif %}
+                    </div>
+                    {% comment %} <style> 
+                      #footer-services .block_content .ttcontent .service #icon-{{ block.id }}.service-icon 
+                      { mask-image:url({{ block.settings.service_icon | image_url}});
+                        -webkit-mask-image:url({{ block.settings.service_icon | image_url}});}               
+                    </style> {% endcomment %}
+                  </div>
+                </div> 
+                {% endif %}
+                {% endfor %}
+              </div>       
+            </div>
+
+{% schema %}
+{
+  "name": "Services",
+  "settings": [
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "desc_color",
+      "label": "Description Color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "s_text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "desc",
+          "label": "Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "service_icon",
+          "label": "Icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Services New",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

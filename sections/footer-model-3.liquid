@@ -3,6 +3,10 @@
     background: {{ section.settings.btn_bg_color }};
     color: {{ section.settings.btn_txt_color }};
   }
+    footer h5, .contact-address{
+    color: {{ section.settings.footer_menu_title_color }};
+  }
+
   .block_newsletter form .input-group .input-group-btn .btn::after{
     background: {{ section.settings.btn_hoverbg_color }};
   }
@@ -21,7 +25,7 @@
   #footer-services{
     background: {{ section.settings.bg_color }};
   }
-  #footer-services .ttcontent .service-title{color: {{ section.settings.title_color }};}
+  {% comment %} #footer-services .ttcontent .service-title{color: {{ section.settings.title_color }};} {% endcomment %}
   #footer-services .ttcontent:hover .content .service-title {color: {{ section.settings.title_hover_color }};}
   #footer-services .block_content .ttcontent:hover .service .ttshipping_img.service-icon{
     background: {{ section.settings.icon_hover_color }};
@@ -467,6 +471,12 @@
 {
 "type": "header",
 "content": "Services"
+},
+{
+"type": "color",
+"id": "footer_menu_title_color",
+"label": "Footer Menu Title Color",
+"default": "#ffffff"
 },
 {
 "type": "color",

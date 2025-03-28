@@ -3,7 +3,7 @@
     background-color:{{section.settings.color_menu_bg }};
   }
   .header_1_wrapper .main-header{
-    background-color:{{section.settings.main_bgheader }};
+    background-color:{{section.settings.top_bg_color }};
   }
   .header_1 .site-header__cart-count .cart-products-count{
     color:{{section.settings.count_color }};
@@ -25,7 +25,9 @@
   .top_header_1 .currency_wrapper.dropdown-toggle:hover,.top_header_1 .currency_wrapper.dropdown-toggle.active{
     color:{{section.settings.top_header_text_hover_color }};
   }
-  .header_1 .top_header_1{ background-color:{{section.settings.top_bg_color }};}
+  .header_1 { background-color:{{section.settings.top_bg_color }};}
+.top_header_1{ background-color:{{section.settings.top_header_info_bg_color }};}
+  .top_header_1 div, .top_header_1 a{ color:{{section.settings.top_header_info_text_color }} !important;}
   .header_1 .bottom_header_1{ background-color:{{section.settings.bottom_bg_color }};}
   #accessibleNav>li>a{color:{{section.settings.toplink_txt_clr }};}
   #accessibleNav>li:hover>a{color:{{section.settings.toplink_txthover_clr }};}
@@ -824,6 +826,18 @@
 "id": "color_menu_bg",
 "label": "Header Background Color",
 "default": "#222222"
+},
+{
+"type": "color",
+"id": "top_header_info_bg_color",
+"label": "Top Header Background Color",
+"default": "#f5f5f5"
+},
+{
+"type": "color",
+"id": "top_header_info_text_color",
+"label": "Top Header Text Color",
+"default": "#000"
 },
 {
 "type": "header",

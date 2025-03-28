@@ -3,6 +3,13 @@
     background: {{ section.settings.btn_bg_color }};
     color: {{ section.settings.btn_txt_color }};
   }
+  footer h5{
+    color: {{ section.settings.footer_menu_title_color }};
+  }
+  .widget-title{
+    color: {{ section.settings.footer_menu_title_color }};
+  }
+  
   .block_newsletter form .input-group .input-group-btn .btn::after{
     background:{{ section.settings.btn_hoverbg_color }};
   }
@@ -466,6 +473,12 @@
 {
 "type": "header",
 "content": "Services"
+},
+{
+"type": "color",
+"id": "footer_menu_title_color",
+"label": "Footer Menu Title Color",
+"default":"#ffffff"
 },
 {
 "type": "color",
