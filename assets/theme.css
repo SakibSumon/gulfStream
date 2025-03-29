@@ -1,6 +1,6 @@
 ::selection {
   color: #fff;
-  background: #24aeb1;
+  background: #FF9D23;
 }
 body{
   font-size: 14px;
@@ -6009,7 +6009,7 @@ body.template-search.search-open .page-wrapper::after{
   float: none;
   width: auto;
   cursor: pointer;
-  white-space: pre-line;
+  /* white-space: pre-line; */
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -6049,7 +6049,7 @@ body.template-search.search-open .page-wrapper::after{
     -ms-transition: all 400ms ease-in-out 0s;
     -o-transition: all 400ms ease-in-out 0s;
     transition: all 400ms ease-in-out 0s;
-    margin: 0 0 4px;
+    margin: 0 0 12px;
     }
 #footer-services .ttcontent .service-desc{
   font:400 14px/16px var(--font-stack-subheading); 	

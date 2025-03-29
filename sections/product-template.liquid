@@ -6,6 +6,9 @@
   .product_tab_wrapper ul.tabs li>a{
     color:{{ section.settings.tab_text_color }};
   }
+  .product-info p span, .product-info p span a{
+    color: black;
+  }
   share-button.share-button {
     float: left;
     width: auto;
@@ -277,9 +280,12 @@
                 <hr class="hr">   
                 <p class="visually-hidden" data-product-status aria-live="polite" role="status"></p>
                 <p class="visually-hidden" data-loader-status aria-live="assertive" role="alert" aria-hidden="true">{{ 'products.product.loader_label' | t }}</p>
+                {% if section.settings.product_desc_enable %}
                 <div class="product-single__desc rte col-xs-12 padding_0" itemprop="description">{% if product.metafields.my_fields.description %} {{ product.metafields.my_fields.description }}{% else %}{{ product.description }}{% endif %}</div>
-                 {% if section.settings.show_reviews %}
                   <hr class="hr">
+                {% endif %}
+                 {% if section.settings.show_reviews %}
+                
                   {% if product.metafields.spr.reviews != "" %}
                   <div class="review-wrap col-xs-12 padding_0"> <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
                   <a class="product-write-review"><i class="mdi mdi-lead-pencil"></i>{{ 'products.product.wirte_review' | t }}</a>
@@ -300,6 +306,7 @@
                 <hr class="hr"> 
                 {% endif %}                    
                 <div class="product-info">
+                  <p><label>Vendor</label><span>GulfStream</span></p>
                   {% if section.settings.product_vendor_enable %}
                   <p class="product-single__vendor"> <label>{{ 'products.product.product_vendor' | t }} </label><span>{{ product.vendor | link_to_vendor }}</span></p>
                   {% endif %}
@@ -1142,6 +1149,12 @@ $(document).ready(function() {
 "id": "tab_text_hover_color",
 "label": "Tab Text Hover Color",
 "default": "#000"
+},
+{
+"type": "checkbox",
+"id": "product_desc_enable",
+"label": "Show product description",
+"default": false
 },
 {
 "type": "checkbox",

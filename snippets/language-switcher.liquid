@@ -10,7 +10,7 @@
   <ul id="lang-list" class="disclosure-list language flag-dropdown-menu" data-disclosure-list>
     {% for locale in form.available_locales %}
     <li class="disclosure-list__item {% if locale.iso_code == form.current_locale.iso_code %}disclosure-list__item--current{% endif %}">
-      <a class="disclosure-list__option" href="#" lang="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %}aria-current="true"{% endif %} data-value="{{ locale.iso_code }}" data-disclosure-option>
+      <a class="disclosure-list__option" style="color: black;" href="#" lang="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %}aria-current="true"{% endif %} data-value="{{ locale.iso_code }}" data-disclosure-option>
         {{ locale.endonym_name }}
       </a>
     </li>

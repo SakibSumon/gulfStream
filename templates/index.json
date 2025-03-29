@@ -372,9 +372,9 @@
         "title": "Our Categories",
         "subtitle": "Over 20+ Depratments",
         "image_content_bg_color": "#ff9d23",
-        "title_color": "#111111",
-        "button_text_color": "#ff9d23",
-        "sub_bg_color": "#ff9d23",
+        "title_color": "#ffffff",
+        "button_text_color": "#222222",
+        "sub_bg_color": "#ffffff",
         "sub_title_color": "#ff9d23",
         "sub_bg_title_color": "#222222",
         "sub_title_hv_color": "#ff9d23",
@@ -387,8 +387,8 @@
         "1595650811758-0": {
           "type": "text_block",
           "settings": {
-            "title": "New Products",
-            "collection": "beauty-skin-care"
+            "title": "",
+            "collection": "perfumes"
           }
         }
       },
@@ -398,7 +398,7 @@
       "settings": {
         "product_rows": false,
         "product_col": "6",
-        "title": "New Products",
+        "title": "Perfumes",
         "subtitle": "",
         "button_text": "#666666",
         "button_hover_text": "#111111",
@@ -443,7 +443,7 @@
           "type": "text_block",
           "settings": {
             "title": "Tab Name",
-            "collection": "mobile-phones"
+            "collection": "electronic"
           }
         }
       },
@@ -453,7 +453,7 @@
       "settings": {
         "product_rows": false,
         "product_col": "6",
-        "title": "Trending products",
+        "title": "Electronics",
         "subtitle": "",
         "button_text": "#000000",
         "button_hover_text": "#ffffff",
@@ -529,7 +529,7 @@
       "type": "featured-product",
       "settings": {
         "class": "fetureproduct",
-        "product_rows": true,
+        "product_rows": false,
         "title": "Features Products",
         "subtitle": "",
         "collection": "beauty-skin-care",
@@ -540,10 +540,10 @@
       "type": "best-seller",
       "settings": {
         "class": "bestproduct",
-        "product_rows": true,
+        "product_rows": false,
         "title": "Best Selling",
         "subtitle": "",
-        "collection": "perfumes",
+        "collection": "digital-watches",
         "product_col": "2"
       }
     },
@@ -563,12 +563,12 @@
         "btn1_txt_color": "#ff9d23",
         "btn1_txt_hover_color": "#ffffff",
         "btn1_bg_hover_color": "#222222",
-        "banner2_img": "shopify:\/\/shop_images\/Untitled_design_96.png",
-        "banner2_url": "shopify:\/\/collections\/sports",
-        "text2_position": "left",
-        "banner2_subtitle": "UPTO 65% OFF",
+        "banner2_img": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-29T011016.625.png",
+        "banner2_url": "shopify:\/\/collections\/automotive",
+        "text2_position": "right",
+        "banner2_subtitle": "Enhance Your Car",
         "banner2_subtitle_color": "#ffffff",
-        "banner2_title": "SPORTS & OUTDOOR",
+        "banner2_title": "Automotive",
         "banner2_title_color": "#ffffff",
         "btn2_text": "Shop Now",
         "btn_link2": "shopify:\/\/collections\/sports",
@@ -584,8 +584,8 @@
         "text_block_eMfgNr": {
           "type": "text_block",
           "settings": {
-            "title": "Tab Name",
-            "collection": "beauty-skin-care"
+            "title": "",
+            "collection": "fashion"
           }
         }
       },
@@ -595,7 +595,7 @@
       "settings": {
         "product_rows": false,
         "product_col": "6",
-        "title": "Trending products",
+        "title": "Men & Women Fashion",
         "subtitle": "",
         "button_text": "#000000",
         "button_hover_text": "#ffffff",
@@ -608,161 +608,194 @@
         "collection_E6J4Kj": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_1_b7643539-e625-46d4-bc6a-bb94178e52f5.png",
+            "slider_img": "shopify:\/\/shop_images\/g1.png",
             "title": "",
-            "col": "mobile-phones"
+            "col": ""
           }
         },
         "collection_GxUhie": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_2_99d4eb68-6569-4100-9047-4269286dfbff.png",
-            "title": "Electronics",
-            "col": "electronic"
+            "slider_img": "shopify:\/\/shop_images\/g1_1.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_iK9jJc": {
+        "collection_rYDE38": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_3.png",
-            "title": "Laptops",
-            "col": "laptops"
+            "slider_img": "shopify:\/\/shop_images\/g1_2.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_6mNLx7": {
+        "collection_eMYApa": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_4.png",
-            "title": "Electronic Accessories",
-            "col": "electronics-accessories"
+            "slider_img": "shopify:\/\/shop_images\/g1_5.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_Ndw4YE": {
+        "collection_DbDeCt": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_5.png",
-            "title": "Cameras",
-            "col": "cameras"
+            "slider_img": "shopify:\/\/shop_images\/g1_3.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_g36hBG": {
+        "collection_DtCUyD": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_6.png",
-            "title": "TV & Home",
-            "col": "tv-home-entertainment"
+            "slider_img": "shopify:\/\/shop_images\/g1_4.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_MRJqjp": {
+        "collection_RGG8hU": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_7.png",
-            "title": "Toys",
-            "col": "toys"
+            "slider_img": "shopify:\/\/shop_images\/g1_12.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_Ny7mGQ": {
+        "collection_yE4RHp": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_8.png",
-            "title": "Beauty",
-            "col": "beauty-skin-care"
+            "slider_img": "shopify:\/\/shop_images\/g1_11.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_anEDmU": {
+        "collection_4fPibd": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_9.png",
-            "title": "Skin Care",
-            "col": "skin-care"
+            "slider_img": "shopify:\/\/shop_images\/g1_8.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_HX3GAX": {
+        "collection_44Gfrw": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_10.png",
-            "title": "Hair Care",
-            "col": "hair-care"
+            "slider_img": "shopify:\/\/shop_images\/g1_10.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_pmDpcn": {
+        "collection_BqkPzW": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_11.png",
-            "title": "Personal Care",
-            "col": "personal-care"
+            "slider_img": "shopify:\/\/shop_images\/g1_9.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_NqHmFR": {
+        "collection_YdPADB": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_12.png",
-            "title": "Fragrances",
-            "col": "perfumes"
+            "slider_img": "shopify:\/\/shop_images\/g1_7.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_cEAtzk": {
+        "collection_qNcMnc": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_13.png",
-            "title": "Kitchen",
-            "col": "kitchen"
+            "slider_img": "shopify:\/\/shop_images\/g1_20.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_fqDjjV": {
+        "collection_j6BhQn": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_14.png",
-            "title": "Home Decor",
-            "col": "home-decor"
+            "slider_img": "shopify:\/\/shop_images\/g1_18.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_fEjine": {
+        "collection_RL9BMy": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_15.png",
-            "title": "Improvement",
-            "col": "home-improvement"
+            "slider_img": "shopify:\/\/shop_images\/g1_6.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_acbi9P": {
+        "collection_rNad7M": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_16.png",
-            "title": "Home Appliances",
-            "col": "home-appliances"
+            "slider_img": "shopify:\/\/shop_images\/g1_14.png",
+            "title": "",
+            "col": ""
           }
         },
-        "collection_hNgp8C": {
+        "collection_BECzaV": {
           "type": "collection",
           "settings": {
-            "slider_img": "shopify:\/\/shop_images\/square_17.png",
-            "title": "Bath & Bedding",
-            "col": "bath-bedding"
+            "slider_img": "shopify:\/\/shop_images\/g1_17.png",
+            "title": "",
+            "col": ""
+          }
+        },
+        "collection_pkjUTJ": {
+          "type": "collection",
+          "settings": {
+            "slider_img": "shopify:\/\/shop_images\/g1_15.png",
+            "title": "",
+            "col": ""
           }
         }
       },
       "block_order": [
         "collection_E6J4Kj",
         "collection_GxUhie",
-        "collection_iK9jJc",
-        "collection_6mNLx7",
-        "collection_Ndw4YE",
-        "collection_g36hBG",
-        "collection_MRJqjp",
-        "collection_Ny7mGQ",
-        "collection_anEDmU",
-        "collection_HX3GAX",
-        "collection_pmDpcn",
-        "collection_NqHmFR",
-        "collection_cEAtzk",
-        "collection_fqDjjV",
-        "collection_fEjine",
-        "collection_acbi9P",
-        "collection_hNgp8C"
+        "collection_rYDE38",
+        "collection_eMYApa",
+        "collection_DbDeCt",
+        "collection_DtCUyD",
+        "collection_RGG8hU",
+        "collection_yE4RHp",
+        "collection_4fPibd",
+        "collection_44Gfrw",
+        "collection_BqkPzW",
+        "collection_YdPADB",
+        "collection_qNcMnc",
+        "collection_j6BhQn",
+        "collection_RL9BMy",
+        "collection_rNad7M",
+        "collection_BECzaV",
+        "collection_pkjUTJ"
       ],
       "settings": {
         "sec_title": "EXPLORE OUR PREMIUM BRANDS"
+      }
+    },
+    "product_tab_model_4RdbJf": {
+      "type": "product-tab-model",
+      "blocks": {
+        "text_block_xaAdNQ": {
+          "type": "text_block",
+          "settings": {
+            "title": "Tab Name",
+            "collection": "beauty-skin-care"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_xaAdNQ"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "6",
+        "title": "Beauty & Skin Care",
+        "subtitle": "",
+        "button_text": "#000000",
+        "button_hover_text": "#ffffff",
+        "bg_color": "#000000"
       }
     },
     "cms_blockbanner_jRibnQ": {
@@ -830,30 +863,6 @@
       ],
       "settings": {}
     },
-    "product_tab_model_4RdbJf": {
-      "type": "product-tab-model",
-      "blocks": {
-        "text_block_xaAdNQ": {
-          "type": "text_block",
-          "settings": {
-            "title": "Tab Name",
-            "collection": "beauty-skin-care"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_xaAdNQ"
-      ],
-      "settings": {
-        "product_rows": false,
-        "product_col": "6",
-        "title": "Trending products",
-        "subtitle": "",
-        "button_text": "#000000",
-        "button_hover_text": "#ffffff",
-        "bg_color": "#000000"
-      }
-    },
     "special-product": {
       "type": "special-product",
       "disabled": true,
@@ -868,6 +877,15 @@
         "button_hover_text_color": "#ffffff",
         "collection": "special-medicine",
         "product_col": "6"
+      }
+    },
+    "topheader_banner_mgVQ8F": {
+      "type": "topheader-banner",
+      "settings": {
+        "enable_banner": true,
+        "banner_image": "shopify:\/\/shop_images\/SALE_4_8d095673-48da-4c82-8924-80e5cf38d5ef.png",
+        "banner_link": "shopify:\/\/collections\/all",
+        "banner_bg": "#f4f3f0"
       }
     },
     "our_brand": {
@@ -924,6 +942,7 @@
         "1605783755d6d9f598-5",
         "1605783755d6d9f598-3"
       ],
+      "disabled": true,
       "settings": {
         "addclass": "brands",
         "bg_color": "#ffffff",
@@ -1012,8 +1031,9 @@
     "cms_banner_Gx94b9",
     "product_tab_model_GJEqNf",
     "collection_slider_VPqQnk",
-    "cms_blockbanner_jRibnQ",
+    "topheader_banner_mgVQ8F",
     "product_tab_model_4RdbJf",
+    "cms_blockbanner_jRibnQ",
     "special-product",
     "our_brand",
     "feature-blogs",

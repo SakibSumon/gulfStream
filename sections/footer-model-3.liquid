@@ -291,7 +291,8 @@
       <div class="container">
         <div class="footer-bottom">
           <div class="col-sm-4 copyright left-to-right hb-animate-element">
-            <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}</small> {{ shop.name | link_to: '/' }} | {{ powered_by_link }}
+            {% comment %} | {{ powered_by_link }} {% endcomment %}
+            <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}</small> {{ shop.name | link_to: '/' }} 
           </div>
           {% if show_social_icons %}
           <div class="col-sm-4 follow-us-outer text-center">

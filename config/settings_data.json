@@ -1,6 +1,6 @@
 {
   "current": {
-    "display_preloader": true,
+    "display_preloader": false,
     "pre_loader_img": "shopify:\/\/shop_images\/1494.gif",
     "preloader_bg": "#ffffff",
     "display_sticky": true,
@@ -22,7 +22,7 @@
     "icon_color": "#ff9d23",
     "icon_hovercolor": "#ffffff",
     "color_footer_social_link": "#8c8c8c",
-    "color_footer_social_link_hover": "#24aeb1",
+    "color_footer_social_link_hover": "#ff9d23",
     "color_footer_bg": "#111111",
     "color_copyright_bg": "#111111",
     "bottom_text_color": "#ffffff",
@@ -33,9 +33,9 @@
     "body_font": "Google+Rubik",
     "type_base_size": "13px",
     "line_height": "16px",
-    "letter_space": "1px",
-    "type_header_family": "Google+Rubik",
-    "type_subheader_family": "Google+Rubik",
+    "letter_space": "2px",
+    "type_header_family": "Google+Roboto+Slab",
+    "type_subheader_family": "Google+Roboto+Condensed",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "enable_category_image": true,
     "category_image": "shopify:\/\/shop_images\/category-banner_95cb9296-fb78-48fc-9f69-931b60a2f639.jpg",
@@ -106,10 +106,10 @@
     "cookie_txt_link_clr": "#777777",
     "cookie_txt_link_hvrclr": "#111111",
     "c_btn_txt": "Accept",
-    "btn_bg_clr": "#24aeb1",
-    "btn_txt_clr": "#ffffff",
-    "btn_bg_hvr_clr": "#ffcc00",
-    "btn_txt_hvr_clr": "#222222",
+    "btn_bg_clr": "#111111",
+    "btn_txt_clr": "#ff9d23",
+    "btn_bg_hvr_clr": "#ff9d23",
+    "btn_txt_hvr_clr": "#ff9d23",
     "footer_style_1": "style_3",
     "social_twitter_link": "https:\/\/twitter.com\/shopify",
     "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
@@ -1606,14 +1606,14 @@
           "top_header_info_text_color": "#ffffff",
           "top_bg_color": "#222222",
           "top_header_text_color": "#ff9d23",
-          "top_header_text_hover_color": "#ffcc00",
-          "destination": "Hurrah! Get Free Shipping on All Orders Over $99!",
+          "top_header_text_hover_color": "#ff9d23",
+          "destination": "⚡ Order Today, Shipped Today! Same-Day Dispatch Available",
           "display_currency": true,
           "display_language": true,
           "main_bgheader": "#ffffff",
           "logo": "shopify:\/\/shop_images\/Gulf_Stream_-_Main_logo.png",
           "Header_link_color": "#ff9d23",
-          "Header_link_hover_color": "#ffcc00",
+          "Header_link_hover_color": "#ff9d23",
           "display_wishlist": true,
           "display_compare": true,
           "display_myaccount": true,
@@ -1628,7 +1628,7 @@
           "fixed-tt-title_clr": "#111111",
           "menu_bgclr": "#222222",
           "menu_txt_clr": "#ffffff",
-          "menu_txt_hvr_clr": "#ffcc00",
+          "menu_txt_hvr_clr": "#ff9d23",
           "nav_menu": "",
           "toplink_txt_clr": "#111111",
           "toplink_txthover_clr": "#ffffff",
@@ -1999,9 +1999,9 @@
           "dwld_app_url2": "#",
           "dwld_app_url3": "#",
           "footer_contact_title": "Store Information",
-          "contact_address": "<p>4030, Central Bazzar,<br\/>Varachha Road, Surat.<\/p>",
-          "contact_no": "092770-77088",
-          "contact_email": "admin@yourstore.com",
+          "contact_address": "<p>Metha Plaza Building, Sheikh Rashid Road, Oud-Metha, Dubai, United Arab Emirates<br\/>                 <\/p>",
+          "contact_no": "+971 563532838",
+          "contact_email": "help@gulfstream.shop",
           "footer_col_title_1": "Help & Support",
           "col_1_menu": "footer-menu-help-support",
           "footer_col_title_2": "My Accounts",
@@ -2019,10 +2019,10 @@
           "btn_bg_color": "#222222",
           "btn_hovertxt_color": "#ffffff",
           "btn_hoverbg_color": "#ff9d23",
-          "security_title": "",
-          "security_img1": "shopify:\/\/shop_images\/close-up-of-purple-and-blue-laces.jpg",
-          "security_img2": "shopify:\/\/shop_images\/rack-of-womens-clothing.jpg",
-          "security_img3": "shopify:\/\/shop_images\/friends-drinking-coffee.jpg",
+          "security_title": "🛡️ Secure Shopping Guaranteed",
+          "security_img1": "shopify:\/\/shop_images\/g1_23.png",
+          "security_img2": "shopify:\/\/shop_images\/g1_24.png",
+          "security_img3": "shopify:\/\/shop_images\/g1_25.png",
           "footer_col_title_5": "Our Collection",
           "col_5_menu": "footer-menu-product-categories",
           "footer_col_title_6": "",
@@ -5049,7 +5049,67 @@
     },
     "content_for_index": [
       "16321129055a159316"
-    ]
+    ],
+    "blocks": {
+      "776302416715791028": {
+        "type": "shopify:\/\/apps\/bucks\/blocks\/app-embed\/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
+        "disabled": false,
+        "settings": {}
+      },
+      "16963237191767492405": {
+        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
+        "disabled": false,
+        "settings": {}
+      },
+      "14710238943034738919": {
+        "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-embed\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+        "disabled": false,
+        "settings": {
+          "air_reviews_json_ld_v2": "{\n\"@context\": \"http:\/\/schema.org\",\n\"@type\": \"Product\",\n\"name\": {{ product.title | json }},\n\"description\": {{ product.description | escape | truncate: 150 | json }},\n\"image\": {{ product.featured_image | json }},\n\"aggregateRating\": {\n  \"@type\": \"AggregateRating\",\n  \"ratingValue\": {{ product.metafields.reviews.rating.value.rating | json }},\n  \"bestRating\": {{ product.metafields.reviews.rating.value.scale_max | json }},\n  \"reviewCount\": {{ product.metafields.air_reviews_product.review_count | json }}\n }{% if shop.metafields.air_reviews_has_ugc_content.data.value == true %}, \n  \"review\":[{% assign reviewsData = product.metafields.air_reviews_product.data.value.reviews %}\n  {% for review in reviewsData limit: 10 %}\n    {\n      \"@type\": \"Review\",\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": {{ review.firstName | json }}\n      },\n      \"reviewRating\": {\n          \"@type\": \"Rating\",\n          \"bestRating\": {{ product.metafields.reviews.rating.value.scale_max | json }},\n          \"ratingValue\": {{ review.rate | json }},\n          \"worstRating\": {{ product.metafields.reviews.rating.value.scale_min | json }}\n      },\n      \"reviewBody\": {{ review.content | json }},\n      \"datePublished\": {{ review.createdAt | date: \"%Y-%m-%d %H:%M:%S\" | json }}\n    }{% unless forloop.last %},{% endunless %} \n  {% endfor %}]{% endif %}\n}"
+        }
+      },
+      "9664103760669878543": {
+        "type": "shopify:\/\/apps\/seoon-blog\/blocks\/avada-seoon-setting\/a45c3e67-be9f-4255-a194-b255a24f37c9",
+        "disabled": false,
+        "settings": {}
+      },
+      "7584948915495707528": {
+        "type": "shopify:\/\/apps\/joy-loyalty-program\/blocks\/app-embed\/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+        "disabled": false,
+        "settings": {}
+      },
+      "9010622670419788200": {
+        "type": "shopify:\/\/apps\/avada-seo-suite\/blocks\/avada-site-verification\/15507c6e-1aa3-45d3-b698-7e175e033440",
+        "disabled": false,
+        "settings": {
+          "google_search_console": "",
+          "bing_webmaster_tools": "",
+          "baidu_webmaster_tools": "",
+          "pinterest": "",
+          "yandex_webmaster_tools": ""
+        }
+      },
+      "3824936769257688723": {
+        "type": "shopify:\/\/apps\/sami-product-labels\/blocks\/app-embed-block\/b9b44663-5d51-4be1-8104-faedd68da8c5",
+        "disabled": true,
+        "settings": {}
+      },
+      "1935445597218932304": {
+        "type": "shopify:\/\/apps\/avada-seo-suite\/blocks\/avada-seo\/15507c6e-1aa3-45d3-b698-7e175e033440",
+        "disabled": false,
+        "settings": {}
+      },
+      "14652898158514659544": {
+        "type": "shopify:\/\/apps\/fly-bundles-upsell\/blocks\/app-embed\/26807bdc-c2ed-4a25-afb2-06e6b1ebf843",
+        "disabled": true,
+        "settings": {}
+      },
+      "13768625480086291342": {
+        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": true,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Bone": {
