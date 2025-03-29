@@ -2737,7 +2737,8 @@ label.error {
   -webkit-border-radius: 5px;
   -khtml-border-radius: 5px;
   margin: 3px;
-  background: #fff;
+  background: transparent;
+  border: 2px solid #FF9D23;
 }
 .site-header__cart-count .cart-products-count{
   width: 18px;
@@ -2758,7 +2759,8 @@ label.error {
 }
 @media(min-width: 992px){
   .wrapper-top-cart .site-header_cart_link i {
-    background:var(--color-btn-primary);
+    /* background:var(--color-btn-primary); */
+    background: #FF9D23;
       -webkit-background-clip: text;
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -4660,7 +4662,7 @@ body.template-search.search-open .page-wrapper::after{
   float: none;
   display: inline-block;
   vertical-align: top;
-  color: #171717;
+  color: #FF9D23;
   font-size: 24px;
   line-height: 24px;
   height: 24px;
@@ -5793,7 +5795,7 @@ body.template-search.search-open .page-wrapper::after{
     float: none;
     display: inline-block;
     vertical-align: top;
-    color: #171717;
+    color: #FF9D23;
     font-size: 21px;
     line-height: 21px;
     height: 21px;
@@ -15013,6 +15015,7 @@ input[type=number]::-webkit-outer-spin-button {
   float: left;
   width: 100%;
   text-align: left;
+  color: black;
 }
 .product-single__description .product_tab_wrapper .tab-container .table-responsive {
   float: left;
@@ -18383,7 +18386,7 @@ a.product-t {
     float: none;
     display:inline-block;
     vertical-align:top;
-    color: #171717;
+    color: #FF9D23;
     font-size:21px;
     line-height:21px;
     height: 21px;
@@ -24849,6 +24852,7 @@ ul.mobile-facets__list li.Color label.mobile-facets__label input[type=checkbox]{
   float: left;
   width: 100%;
   line-height: 22px;
+  color: #222222;
 }
 .product-information .payment-content .payment-title::after {
   content: "\f341";

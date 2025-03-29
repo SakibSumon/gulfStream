@@ -4,6 +4,10 @@
   }
   .topcat_content .cat-content .cat-title,.top-category .more_menu_title{color: {{ section.settings.title_color }};}
   .topcat_content .cat-cnt:hover .cat-content .cat-title,.topcat_content .cat-cnt.open .cat-content .cat-title,.top-category .cat-cnt:hover .mobile-nav__sublist-trigger i,.top-category .cat-cnt.open .mobile-nav__sublist-trigger i{color: {{ section.settings.title_hover_color }};}
+
+  @media only screen and (max-width: 991px) {
+    .topcat_content .cat-content .cat-title,.top-category .more_menu_title{color: white;}
+  }
 </style>
 <div class="top-cat">
   {% if section.blocks.size > 0 %} 
