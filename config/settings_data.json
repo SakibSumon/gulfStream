@@ -41,7 +41,7 @@
     "category_image": "shopify:\/\/shop_images\/category-banner_95cb9296-fb78-48fc-9f69-931b60a2f639.jpg",
     "breadcrumb_bg_color": "#f2f3f7",
     "breadcrumb_text_color": "#111111",
-    "breadcrumb_hover_text_color": "#24aeb1",
+    "breadcrumb_hover_text_color": "#ff9d23",
     "header_style_1": "style_1",
     "mailchimp_form_action": "https:\/\/templatetrip.us5.list-manage.com\/subscribe\/post?u=53b61777f972e1b53c67d2963&amp;id=6f5d8a7e6e",
     "popup_newsletter_show": true,
@@ -52,11 +52,11 @@
     "popup_newsletter_delay_first": "7000",
     "popup_newsletter_delay": "1",
     "enable_multiple_currencies": true,
-    "currency_1_unit": "USD",
-    "currency_2_unit": "EUR",
-    "currency_3_unit": "GBP",
-    "currency_4_unit": "AUD",
-    "currency_5_unit": "INR",
+    "currency_1_unit": "AED",
+    "currency_2_unit": "QAR",
+    "currency_3_unit": "SAR",
+    "currency_4_unit": "KWD",
+    "currency_5_unit": "OMR",
     "currency_6_unit": "",
     "currency_7_unit": "",
     "currency_8_unit": "",
@@ -66,10 +66,10 @@
     "sale_show_percentage": true,
     "collections_view_enable": true,
     "collections_masonry": false,
-    "enable_quick_view": true,
+    "enable_quick_view": false,
     "enable_add_cart": true,
-    "enable_wishlist": true,
-    "enable_compare": true,
+    "enable_wishlist": false,
+    "enable_compare": false,
     "enable_quantity": true,
     "enable_countdown": true,
     "display_color_variant": true,
@@ -102,7 +102,7 @@
     "cookie_desc": "By continuing use this site, you agree to the",
     "cookie_txt_clr": "#111111",
     "link_title": "Privacy Policy",
-    "link_url": "shopify:\/\/pages\/terms-and-conditions-of-use",
+    "link_url": "shopify:\/\/policies\/privacy-policy",
     "cookie_txt_link_clr": "#777777",
     "cookie_txt_link_hvrclr": "#111111",
     "c_btn_txt": "Accept",
@@ -111,13 +111,13 @@
     "btn_bg_hvr_clr": "#ff9d23",
     "btn_txt_hvr_clr": "#ff9d23",
     "footer_style_1": "style_3",
-    "social_twitter_link": "https:\/\/twitter.com\/shopify",
-    "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
-    "social_instagram_link": "https:\/\/instagram.com\/shopify",
-    "social_tumblr_link": "http:\/\/shopify.tumblr.com",
+    "social_twitter_link": "https:\/\/x.com\/Gulfstream_fze",
+    "social_facebook_link": "https:\/\/www.facebook.com\/gulfstreamoffical\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/gulfstream_official\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/gulfstream_official\/",
+    "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/@gulfstream_official",
     "social_vimeo_link": "",
     "social_fancy_link": "",
     "share_facebook": true,
@@ -735,6 +735,7 @@
             "settings": {
               "title": "About Us",
               "button_link": "shopify:\/\/pages\/about-us",
+              "tt_sub_menu_icon": "shopify:\/\/shop_images\/png_treemy.png",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
@@ -1907,79 +1908,19 @@
       "footer-model-3": {
         "type": "footer-model-3",
         "blocks": {
-          "89b9c4ff-8225-4746-937e-ec5ece572232": {
-            "type": "s_text",
-            "disabled": true,
-            "settings": {
-              "title": "Shop Worldwide",
-              "desc": "dropship worldwide"
-            }
-          },
-          "3b457db9-a3fb-4b3c-b0c4-640b7d09782d": {
-            "type": "s_text",
-            "disabled": true,
-            "settings": {
-              "title": "Big Saving Shop",
-              "desc": "Save big every order"
-            }
-          },
-          "34f71614-ccf1-479f-b316-fa42b450df44": {
-            "type": "s_text",
-            "disabled": true,
-            "settings": {
-              "title": "24H 7D Support",
-              "desc": "one-on-one support"
-            }
-          },
-          "b03f339d-d78d-4f32-9284-ffdd9416025e": {
-            "type": "s_text",
-            "disabled": true,
-            "settings": {
-              "title": "Money Back Return",
-              "desc": "cancel order anytime"
-            }
-          },
-          "6093da0b-48a7-495c-a899-9b3b5204c0a1": {
-            "type": "text",
-            "settings": {
-              "text_desc": "Duis faucibus enim vitae nunc molestie, nec nec arcu facilisism molestie, necn vitae nunc molestie, nec nec arcu facilisis arcu Nulla mgjklmm vitae  molestie, nec nec arcu Nullam mattis nec arcu facilisis arcu Nullam",
-              "des_color": "#666666",
-              "author_name": "John Doe",
-              "author_designation": "- CEO & Founder",
-              "author_color": "#111111",
-              "author_descolor": "#222222"
-            }
-          },
-          "cace9902-e353-4140-b423-e3848c260411": {
-            "type": "text",
-            "settings": {
-              "text_desc": "Duis faucibus enim vitae nunc molestie, nec nec arcu facilisism molestie, necn vitae nunc molestie, nec nec arcu facilisis arcu Nulla mgjklmm vitae  molestie, nec nec arcu Nullam mattis nec arcu facilisis arcu Nullam",
-              "des_color": "#666666",
-              "author_name": "John Doe",
-              "author_designation": "- CEO & Founder",
-              "author_color": "#111111",
-              "author_descolor": "#222222"
-            }
-          },
           "43357387-ac28-489e-b3b3-00b502af4357": {
             "type": "text",
             "settings": {
-              "text_desc": "Duis faucibus enim vitae nunc molestie, nec nec arcu facilisism molestie, necn vitae nunc molestie, nec nec arcu facilisis arcu Nulla mgjklmm vitae  molestie, nec nec arcu Nullam mattis nec arcu facilisis arcu Nullam",
-              "des_color": "#666666",
-              "author_name": "John Doe",
-              "author_designation": "- CEO & Founder",
+              "text_desc": "Same-Day Dispatch, 100% Authentic Products, and Unbeatable Prices – Shop with Confidence!",
+              "des_color": "#111111",
+              "author_name": "GULFTREAM",
+              "author_designation": "Delivery Team",
               "author_color": "#111111",
               "author_descolor": "#222222"
             }
           }
         },
         "block_order": [
-          "89b9c4ff-8225-4746-937e-ec5ece572232",
-          "3b457db9-a3fb-4b3c-b0c4-640b7d09782d",
-          "34f71614-ccf1-479f-b316-fa42b450df44",
-          "b03f339d-d78d-4f32-9284-ffdd9416025e",
-          "6093da0b-48a7-495c-a899-9b3b5204c0a1",
-          "cace9902-e353-4140-b423-e3848c260411",
           "43357387-ac28-489e-b3b3-00b502af4357"
         ],
         "settings": {
@@ -1991,7 +1932,7 @@
           "icon_color": "#111111",
           "icon_hover_color": "#111111",
           "testi_bg_color": "#ffffff",
-          "Testi_img": "shopify:\/\/shop_images\/beach-towel-in-wind.jpg",
+          "Testi_img": "shopify:\/\/shop_images\/Untitled_design_-_2025-03-30T210129.037.png",
           "app_heading": "Download App",
           "dwld_app1": "shopify:\/\/shop_images\/Apple_Store.png",
           "dwld_app_url1": "#",
@@ -3402,42 +3343,57 @@
       "recommendations-product": {
         "type": "recommendations-product",
         "blocks": {
-          "1598010410945": {
+          "text_block_fKEf4h": {
             "type": "text_block",
-            "disabled": true,
             "settings": {
-              "add_product": "approved-disposable-medical-face-mask-earloop",
-              "product_location": "In Bauru, Brazil",
-              "product_time": "About 35 Minutes Ago"
+              "add_product": "amouage-sunshine-w-edp-100ml-new",
+              "product_location": "Ras-al-Khaima",
+              "product_time": ""
             }
           },
-          "1598010431448": {
+          "text_block_Cd4TAR": {
             "type": "text_block",
-            "disabled": true,
             "settings": {
-              "add_product": "bioderma-atoderm-gel-douche-ultra-gentle-shower",
-              "product_location": "In Blumenau, Brazil",
-              "product_time": "About 20 Minute Ago"
+              "add_product": "apple-airpods-4-with-active-noise-cancellation-bluetooth-5-3",
+              "product_location": "Ajman",
+              "product_time": ""
             }
           },
-          "1598010548574": {
+          "text_block_LkRRYY": {
             "type": "text_block",
-            "disabled": true,
             "settings": {
-              "add_product": "digital-infrared-medical-fever-body-thermometer",
-              "product_location": "In Blumenau, Brazil",
-              "product_time": "About 30 Minute Ago"
+              "add_product": "apple-iphone-15-pro-max-black-titanium-256-gb-middle-east-version-with-facetime-copy-1",
+              "product_location": "Dubai",
+              "product_time": ""
+            }
+          },
+          "text_block_xbYF94": {
+            "type": "text_block",
+            "settings": {
+              "add_product": "apple-watch-series-10-gold-gps-cellular-46mm-titanium-case-with-gold-milanese-loop-m-l",
+              "product_location": "Sharjah",
+              "product_time": ""
+            }
+          },
+          "text_block_Waybfg": {
+            "type": "text_block",
+            "settings": {
+              "add_product": "amouage-guidance-46-edp-100ml-new",
+              "product_location": "Abu Dhabi",
+              "product_time": ""
             }
           }
         },
         "block_order": [
-          "1598010410945",
-          "1598010431448",
-          "1598010548574"
+          "text_block_fKEf4h",
+          "text_block_Cd4TAR",
+          "text_block_LkRRYY",
+          "text_block_xbYF94",
+          "text_block_Waybfg"
         ],
         "settings": {
-          "show_notification": true,
-          "notify_product_pos": "left",
+          "show_notification": false,
+          "notify_product_pos": "right",
           "product_title": "Product Notification",
           "delay_time": "3000"
         }

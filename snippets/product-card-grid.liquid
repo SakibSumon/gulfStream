@@ -41,7 +41,10 @@
         {% endif %} 
         {% endif %} 
         {% if product.compare_at_price > product.price %}
-        <span class="product-price__sale-label">{{ 'products.product.on_sale' | t }}</span>
+          {% comment %} {{ 'products.product.on_sale' | t }} {% endcomment %}
+        <span class="product-price__sale-label gg">
+          {% render 'sale-svg' %}
+        </span>
         {% endif %}
         {% assign my_fields = product.metafields.my_fields %}
         {% assign key = 'custom_label' %}

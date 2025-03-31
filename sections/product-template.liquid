@@ -14,6 +14,31 @@
     width: auto;
     margin-right: 10px;
   }
+
+  .same-day-del{
+    text-align: right;
+  }
+
+  .same-day-del-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .same-day-del-text i{
+    margin-right: 5px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .same-day-del-text{
+      justify-content: flex-start;
+    }
+  }
 </style>
 {% if template.name == 'product' %}
 <script src="{{ 'threesixty.min.js' | asset_url}}" defer="defer"></script>
@@ -258,6 +283,9 @@
               <div class="product-single__header col-xs-12">
                 <div class="title-arrows">
                   <h1 itemprop="name" class="product-single__title text-capitalize{% if section.settings.product_vendor_enable %} wvendor{% endif %}">{{ product.title }}</h1>
+                  <div class="same-day-del">
+                    {% comment %} <span>{% render 'delivery-car' %}</span> {% endcomment %}
+                    <span class="same-day-del-text">Same Day Dispatch <img src="https://cdn.shopify.com/s/files/1/0740/3336/5204/files/express-del.png?v=1743376779" style="height:25px; padding-left: 10px;" > </span>
                   {% if collection %}
                   {% if collection.previous_product or collection.next_product %}
                   <p class="product-arrows">
@@ -274,6 +302,7 @@
                     </span>
                     {% endif %}
                   </p>
+                  </div>
                   {% endif %}
                   {% endif %}
                 </div>
@@ -948,12 +977,12 @@
         <div class="product_tab_wrapper col-xs-12">
           <ul class="tabs nav nav-tabs">
             <li class="active"><a data-toggle="tab"  href="#tab-1">{{ 'products.product.description' | t }}</a></li>
-            <li><a data-toggle="tab"  href="#tab-3">{{ 'products.product.shipping_return' | t }}</a></li>
+            <li><a data-toggle="tab"  href="#tab-3">Shipping Policy</a></li>
           </ul>
           <div class="tab-container">
             <div id="tab-1"  class="tab-pane fade in active">{{ product.description }}</div>
             <div id="tab-3"  class="tab-pane fade">
-              {{ pages.shipping.content }}
+              {{ pages.shipping-policy.content }}
             </div>
           </div>
         </div>

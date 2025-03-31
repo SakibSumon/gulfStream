@@ -8663,7 +8663,7 @@ div#shopify-section-footer-model-3 .Newsletter-wrapper{
     line-height: 22px;
   }
   .cms-banner .banner .banner-content .subtitle {
-    display: none;
+    /* display: none; */
   }
   .cms-banner .banner .banner-content .btn {
     padding: 6px 12px;
@@ -11329,9 +11329,33 @@ span.spr-summary-caption {
   margin: 15px 0 0;
   min-width: 450px;
 }
+
+.breadcrumb-modified{
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.breadcrumb-modified span, .breadcrumb-modified a{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 640px) {
+ .breadcrumb-modified{
+  flex-direction: column;
+  align-items: center;
+  
+}
+.breadcrumb-modified span, .breadcrumb-modified a{
+  font-size: 12px;
+  font-weight: 500;
+}
+  
+}
+
 .shopify-payment-button .shopify-payment-button__button {
-  background: var(--color-btn-secondary);
-    color: var(--color-btn-secondary-text);
+  background: #FF9D23;
+    color: white;
       z-index: 1;
       position: relative;
       float: left;
@@ -22682,7 +22706,7 @@ ul.mobile-facets__list li.Color label.mobile-facets__label input[type=checkbox]{
   left: 0;
   width: 12px;
   height: 12px;
-  content: "";
+  content: none;
   text-align: center;
   background: #fff;
   border-radius: 25px;
